@@ -15871,7 +15871,7 @@ services:
 ## --------------------------- ORION --------------------------- ##
 
   dify${1:+_$1}_api:
-    image: langgenius/dify-api:0.13.2 ## Versão do Dify
+    image: langgenius/dify-api:0.15.3 ## Versão do Dify
 
     volumes:
       - dify${1:+_$1}_storage:/app/api/storage
@@ -15966,7 +15966,7 @@ services:
           - node.role == manager
       resources:
         limits:
-          cpus: "2"
+          cpus: "4"
           memory: 4096M
       labels:
         - traefik.enable=true
@@ -15982,7 +15982,7 @@ services:
 ## --------------------------- ORION --------------------------- ##
 
   dify${1:+_$1}_worker:
-    image: langgenius/dify-api:0.13.2 ## Versão do Dify
+    image: langgenius/dify-api:0.15.3 ## Versão do Dify
 
     volumes:
       - dify${1:+_$1}_storage:/app/api/storage
@@ -16080,13 +16080,13 @@ services:
           - node.role == manager       
       resources:
         limits:
-          cpus: "2"
+          cpus: "4"
           memory: 4096M
 
 ## --------------------------- ORION --------------------------- ## 
 
   dify${1:+_$1}_web:
-    image: langgenius/dify-web:0.13.2 ## Versão do Dify
+    image: langgenius/dify-web:0.15.3 ## Versão do Dify
 
     networks:
       - $nome_rede_interna
@@ -16110,7 +16110,7 @@ services:
           - node.role == manager
       resources:
         limits:
-          cpus: "2"
+          cpus: "4"
           memory: 4096M
       labels:
         - traefik.enable=true
