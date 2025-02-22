@@ -15966,7 +15966,7 @@ services:
           - node.role == manager
       resources:
         limits:
-          cpus: "4"
+          cpus: "3"
           memory: 4096M
       labels:
         - traefik.enable=true
@@ -16080,7 +16080,7 @@ services:
           - node.role == manager       
       resources:
         limits:
-          cpus: "4"
+          cpus: "3"
           memory: 4096M
 
 ## --------------------------- ORION --------------------------- ## 
@@ -16110,7 +16110,7 @@ services:
           - node.role == manager
       resources:
         limits:
-          cpus: "4"
+          cpus: "3"
           memory: 4096M
       labels:
         - traefik.enable=true
