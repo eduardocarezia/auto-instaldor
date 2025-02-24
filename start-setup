@@ -265,7 +265,7 @@ if [ -e "SetupOrion" ]; then
 fi
 
 # Baixa o script
-curl -sSL https://raw.githubusercontent.com/eduardocarezia/auto-instaldor-by-orion/refs/heads/main/setup-orion -o SetupOrion
+curl -sSL https://raw.githubusercontent.com/eduardocarezia/auto-instaldor/refs/heads/main/setup -o SetupOrion
 if [ $? -eq 0 ]; then
     echo "13/13 - [ OK ] - Baixando o script"
     # Executa o script baixado
