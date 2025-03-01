@@ -5253,6 +5253,7 @@ services:
     environment:
       ## Configurações Gerais
       - SERVER_URL=https://$url_evolution
+      ## API KEY PARA ACESSAR O PAINEL
       - AUTHENTICATION_API_KEY=$apikeyglobal
       - AUTHENTICATION_EXPOSE_IN_FETCH_INSTANCES=true
       - DEL_INSTANCE=false
