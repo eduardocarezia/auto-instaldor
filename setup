@@ -18976,8 +18976,8 @@ services:
       - NEXT_ANALYTICS_BACKEND_PROVIDER=postgres
 
     ## Configuração de Branding
-      - DEFAULT_ORGANIZATION_NAME=OrionDesign
-      - DEFAULT_PROJECT_NAME=SetupOrion
+      - DEFAULT_ORGANIZATION_NAME=Hostfy
+      - DEFAULT_PROJECT_NAME=Supabase
 
     ## Configuração do Banco de Dados PostgreSQL
       - POSTGRES_PASSWORD=$Senha_Postgres
