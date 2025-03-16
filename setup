@@ -4765,7 +4765,7 @@ services:
     
     environment:
       ## Qualquer Url com # no final
-      - CHATWOOT_HUB_URL=https://oriondesign.art.br/setup#
+      #- CHATWOOT_HUB_URL=https://oriondesign.art.br/setup#
 
       ## Nome da Empresa
       - INSTALLATION_NAME=$nome_empresa_chatwoot
@@ -4779,7 +4779,7 @@ services:
 
       ## Idioma/Localização padrão
       - DEFAULT_LOCALE=pt_BR
-      - TZ=America/Brasil
+      - TZ=America/Sao_Paulo
 
       ## Google Cloud - Modifique de acordo com os seus dados (lembre-se de mudar no chatwoot_sidekiq)
       #- GOOGLE_OAUTH_CLIENT_ID=369777777777-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com
@@ -4790,9 +4790,9 @@ services:
       - REDIS_URL=redis://redis:6379
 
       ## Dados do Postgres
-      - POSTGRES_HOST=postgres
+      - POSTGRES_HOST=pgvector
       - POSTGRES_USERNAME=postgres
-      - POSTGRES_PASSWORD=$senha_postgres ## Senha do postgres
+      - POSTGRES_PASSWORD=$senha_pgvector ## Senha do postgres
       - POSTGRES_DATABASE=chatwoot${1:+_$1}
 
       ## Armazenamento
@@ -4871,7 +4871,7 @@ services:
 
     environment:
       ## Qualquer Url com # no final
-      - CHATWOOT_HUB_URL=https://oriondesign.art.br/setup#
+      #- CHATWOOT_HUB_URL=https://oriondesign.art.br/setup#
 
       ## Nome da Empresa
       - INSTALLATION_NAME=$nome_empresa_chatwoot
@@ -4896,9 +4896,9 @@ services:
       - REDIS_URL=redis://redis:6379
 
       ## Dados do Postgres
-      - POSTGRES_HOST=postgres
+      - POSTGRES_HOST=pgvector
       - POSTGRES_USERNAME=postgres
-      - POSTGRES_PASSWORD=$senha_postgres ## Senha do postgres
+      - POSTGRES_PASSWORD=$senha_pgvector ## Senha do postgres
       - POSTGRES_DATABASE=chatwoot${1:+_$1}
 
       ## Armazenamento
