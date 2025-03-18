@@ -3280,7 +3280,7 @@ services:
 ## --------------------------- HOSTFY --------------------------- ##
 
   agent:
-    image: portainer/agent:latest ## Versão Agent do Portainer
+    image: portainer/agent:2.21.4 ## Versão Agent do Portainer
 
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
@@ -3297,7 +3297,7 @@ services:
 ## --------------------------- HOSTFY --------------------------- ##
 
   portainer:
-    image: portainer/portainer-ce:latest ## Versão do Portainer
+    image: portainer/portainer-ce:2.21.4 ## Versão do Portainer
     command: -H tcp://tasks.agent:9001 --tlsskipverify
 
     volumes:
