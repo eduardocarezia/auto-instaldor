@@ -3371,7 +3371,7 @@ echo ""
 sleep 1
 
 ## Tenta criar usuário no Portainer até 4 vezes
-MAX_RETRIES=15
+MAX_RETRIES=30
 DELAY=30  # Delay de 15 segundos entre as tentativas
 CONTA_CRIADA=false
 
