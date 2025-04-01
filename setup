@@ -7585,8 +7585,8 @@ services:
           - node.role == manager
       resources:
         limits:
-          cpus: "1"
-          memory: 1024M
+          cpus: "2"
+          memory: 2048M
       labels:
         - traefik.enable=true
         - traefik.http.routers.n8n${1:+_$1}_editor.rule=Host(\`$url_editorn8n\`) ## Url do Editor do N8N
@@ -7663,8 +7663,8 @@ services:
           - node.role == manager
       resources:
         limits:
-          cpus: "1"
-          memory: 1024M
+          cpus: "2"
+          memory: 2048M
       labels:
         - traefik.enable=true
         - traefik.http.routers.n8n${1:+_$1}_webhook.rule=(Host(\`$url_webhookn8n\`)) ## Url do Webhook do N8N
@@ -7741,8 +7741,8 @@ services:
           - node.role == manager
       resources:
         limits:
-          cpus: "1"
-          memory: 1024M
+          cpus: "2"
+          memory: 2048M
 
 ## --------------------------- HOSTFY --------------------------- ##
 
