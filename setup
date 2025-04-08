@@ -15967,8 +15967,8 @@ services:
           - node.role == manager
       resources:
         limits:
-          cpus: "2"
-          memory: 4096M
+          cpus: "4"
+          memory: 8192M
       labels:
         - traefik.enable=true
         - traefik.http.routers.dify${1:+_$1}_api.rule=Host(\`$url_dify_api\`)
@@ -16081,8 +16081,8 @@ services:
           - node.role == manager       
       resources:
         limits:
-          cpus: "2"
-          memory: 4096M
+          cpus: "4"
+          memory: 8192M
 
 ## --------------------------- HOSTFY --------------------------- ## 
 
@@ -16111,8 +16111,8 @@ services:
           - node.role == manager
       resources:
         limits:
-          cpus: "2"
-          memory: 4096M
+          cpus: "4"
+          memory: 8192M
       labels:
         - traefik.enable=true
         - traefik.http.routers.dify${1:+_$1}_web.rule=Host(\`$url_dify\`)
@@ -16145,8 +16145,8 @@ services:
           - node.role == manager
       resources:
         limits:
-          cpus: "2"
-          memory: 4096M
+          cpus: "4"
+          memory: 8192M
 
 ## --------------------------- HOSTFY --------------------------- ##
 
@@ -16185,8 +16185,8 @@ services:
           - node.role == manager
       resources:
         limits:
-          cpus: "2"
-          memory: 4096M
+          cpus: "4"
+          memory: 8192M
 
 ## --------------------------- HOSTFY --------------------------- ##
 
