@@ -3386,7 +3386,7 @@ for i in $(seq 1 $MAX_RETRIES); do
     CONTA_CRIADA=true
     break
   else
-    echo "Falha ao criar a conta de administrador na tentativa $i/4."
+    echo "Falha ao criar a conta de administrador na tentativa $i/30."
     # Se for a última tentativa, exibe mensagem de erro final
     if [ $i -eq $MAX_RETRIES ]; then
       echo "1/2 - [ OFF ] - Não foi possível criar a conta de administrador após $MAX_RETRIES tentativas."
