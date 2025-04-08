@@ -3376,7 +3376,7 @@ DELAY=30  # Delay de 15 segundos entre as tentativas
 CONTA_CRIADA=false
 
 for i in $(seq 1 $MAX_RETRIES); do
-  RESPONSE=$(curl -k -s -X POST "http://$url_portainer/api/users/admin/init" \
+  RESPONSE=$(curl -k -s -X POST "https://$url_portainer/api/users/admin/init" \
     -H "Content-Type: application/json" \
     -d "{\"Username\": \"$user_portainer\", \"Password\": \"$pass_portainer\"}")
 
