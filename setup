@@ -5242,7 +5242,7 @@ services:
 ## --------------------------- HOSTFY --------------------------- ##
 
   evolution${1:+_$1}:
-    image: atendai/evolution-api:2.2.3 ## Versão da Evolution API
+    image: atendai/evolution-api:v2.2.0 ## Versão da Evolution API
 
     volumes:
       - evolution${1:+_$1}_instances:/evolution/instances
@@ -5650,7 +5650,7 @@ services:
 ## --------------------------- HOSTFY --------------------------- ##
 
   evolution${1:+_$1}_lite:
-    image: atendai/evolution-api-lite:2.2.3 ## Versão da Evolution API
+    image: atendai/evolution-api-lite:v2.2.0 ## Versão da Evolution API
     entrypoint: ["/bin/bash", "-c", ". ./Docker/scripts/deploy_database.sh && npm run start:prod" ]
 
     volumes:
@@ -6360,7 +6360,7 @@ services:
 ## --------------------------- HOSTFY --------------------------- ##
 
   evolution${1:+_$1}:
-    image: atendai/evolution-api:v2.1.2 ## Versão da Evolution API
+    image: atendai/evolution-api:v2.2.0 ## Versão da Evolution API
 
     volumes:
       - evolution${1:+_$1}_instances:/evolution/instances
