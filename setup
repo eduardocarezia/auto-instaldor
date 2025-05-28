@@ -5262,8 +5262,8 @@ services:
       
       ## Configuração do Cliente
       ## Pegue a versão em: https://wppconnect.io/pt-BR/whatsapp-versions/
-      - CONFIG_SESSION_PHONE_VERSION=2.3000.1015901307
-      - CONFIG_SESSION_PHONE_CLIENT=OrionDesign
+      - CONFIG_SESSION_PHONE_VERSION=2.3000.1023249347
+      - CONFIG_SESSION_PHONE_CLIENT=Hostfy
       - CONFIG_SESSION_PHONE_NAME=Chrome
       
       ## Configuração do Banco de Dados
@@ -5670,8 +5670,8 @@ services:
       
       ## Configuração do Cliente
       ## Pegue a versão em: https://wppconnect.io/pt-BR/whatsapp-versions/
-      - CONFIG_SESSION_PHONE_VERSION=2.3000.1015901307
-      - CONFIG_SESSION_PHONE_CLIENT=OrionDesign
+      - CONFIG_SESSION_PHONE_VERSION=2.3000.1023249347
+      - CONFIG_SESSION_PHONE_CLIENT=Hostfy
       - CONFIG_SESSION_PHONE_NAME=Chrome
       
       ## Configuração do Banco de Dados
@@ -6379,8 +6379,8 @@ services:
       
       ## Configuração do Cliente
       ## Pegue a versão em: https://wppconnect.io/pt-BR/whatsapp-versions/
-      - CONFIG_SESSION_PHONE_VERSION=2.3000.1015901307
-      - CONFIG_SESSION_PHONE_CLIENT=OrionDesign
+      - CONFIG_SESSION_PHONE_VERSION=2.3000.1023249347
+      - CONFIG_SESSION_PHONE_CLIENT=Hostfy
       - CONFIG_SESSION_PHONE_NAME=Chrome
       
       ## Configuração do Banco de Dados
