@@ -7522,7 +7522,7 @@ services:
 ## --------------------------- HOSTFY --------------------------- ##
 
   n8n${1:+_$1}_editor:
-    image: n8nio/n8n:latest ## Versão do N8N
+    image: n8nio/n8n:1.93.0 ## Versão do N8N
     command: start
 
     networks:
@@ -7600,7 +7600,7 @@ services:
 ## --------------------------- HOSTFY --------------------------- ##
 
   n8n${1:+_$1}_webhook:
-    image: n8nio/n8n:latest ## Versão do N8N
+    image: n8nio/n8n:1.93.0 ## Versão do N8N
     command: webhook
 
     networks:
@@ -7678,7 +7678,7 @@ services:
 ## --------------------------- HOSTFY --------------------------- ##
 
   n8n${1:+_$1}_worker:
-    image: n8nio/n8n:latest ## Versão do N8N
+    image: n8nio/n8n:1.93.0 ## Versão do N8N
     command: worker --concurrency=10
 
     networks:
