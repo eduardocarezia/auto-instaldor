@@ -6745,7 +6745,7 @@ services:
 ## --------------------------- HOSTFY --------------------------- ##
 
   minio${1:+_$1}:
-    image: quay.io/minio/minio:RELEASE.2025-02-18T16-25-55Z ## Versão do Minio
+    image: quay.io/minio/minio:RELEASE.2024-12-18T13-15-44Z-cpuv1 ## Versão do Minio
     command: server /data --console-address ":9001"
 
     volumes:
