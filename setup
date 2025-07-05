@@ -3520,9 +3520,8 @@ services:
     networks:
       - $nome_rede_interna ## Nome da rede interna
 
-    ## Descomente as linhas abaixo para uso externo
-    #ports:
-    #  - 5432:5432
+    ports:
+      - 5432:5432
 
     environment:
       ## Senha do postgres 
