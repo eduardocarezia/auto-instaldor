@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 versao() {
@@ -10,7 +10,7 @@ echo -e "\e[32moriondesign.art.br/whatsapp2      \e[97m<----- Grupos no WhatsApp
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Cores do Setup
@@ -23,13 +23,13 @@ vermelho="\e[91m"
 reset="\e[0m"
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 menu_instalador="1"
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 home_directory="$HOME"
@@ -41,7 +41,7 @@ dados() {
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Licença do Setup
@@ -144,7 +144,7 @@ creditos_msg() {
 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Mensagens gerais
@@ -272,7 +272,7 @@ nome_credenciais() {
     info_credenciais
 }
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Titulos
@@ -1669,6 +1669,20 @@ nome_transcrevezap(){
     echo ""
 }
 
+nome_openwebui(){
+    clear
+    echo ""
+    echo ""
+    echo -e "$branco          ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗     ██╗   ██╗██╗\e[0m"
+    echo -e "$branco         ██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗    ██║   ██║██║\e[0m"
+    echo -e "$branco         ██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝    ██║   ██║██║\e[0m"
+    echo -e "$branco         ██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗    ██║   ██║██║\e[0m"
+    echo -e "$branco         ╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝    ╚██████╔╝██║\e[0m"
+    echo -e "$branco          ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝      ╚═════╝ ╚═╝\e[0m"
+    echo ""
+    echo ""
+}
+
 # ===================================================================================================
 
 
@@ -1786,7 +1800,7 @@ echo ""
 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Defasados
@@ -1825,7 +1839,7 @@ nome_finalizado() {
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Menu de opções
@@ -1970,7 +1984,7 @@ menu_comandos(){
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Verificar se stack já existe
@@ -1996,7 +2010,7 @@ verificar_stack() {
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 # Função para verificar recursos
@@ -2006,8 +2020,18 @@ recursos() {
     ram_requerido=$2
 
     # Obtendo a quantidade de vCPUs e GB de RAM disponíveis
-    vcpu_disponivel=$(neofetch --stdout | grep "CPU" | grep -oP '\(\d+\)' | tr -d '()')
-    ram_disponivel=$(neofetch --stdout | grep "Memory" | awk '{print $4}' | tr -d 'MiB' | awk '{print int($1/1024 + 0.5)}')
+    if command -v neofetch >/dev/null 2>&1; then
+        # Debian 11
+        vcpu_disponivel=$(neofetch --stdout | grep "CPU" | grep -oP '\(\d+\)' | tr -d '()')
+        ram_disponivel=$(neofetch --stdout | grep "Memory" | awk '{print $4}' | tr -d 'MiB' | awk '{print int($1/1024 + 0.5)}')
+    elif command -v fastfetch >/dev/null 2>&1; then
+        # Debian 13 (usa saída JSON do fastfetch)
+        vcpu_disponivel=$(fastfetch --json | jq '.cpu.cores')
+        ram_disponivel=$(fastfetch --json | jq '.memory.total / 1024 / 1024' | awk '{print int($1+0.5)}')
+    else
+        echo "Erro: nem neofetch nem fastfetch encontrados. Instale um deles para continuar."
+        return 1
+    fi
 
     # Comparando os recursos
     if [[ $vcpu_disponivel -ge $vcpu_requerido && $ram_disponivel -ge $ram_requerido ]]; then
@@ -2037,8 +2061,9 @@ recursos() {
     fi
 }
 
+
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 stack_editavel(){
@@ -2407,7 +2432,7 @@ telemetria() {
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Verificadores
@@ -2877,7 +2902,7 @@ esconder_senha() {
 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Pegar informações
@@ -2948,7 +2973,7 @@ pegar_link_s3() {
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Criadores de banco de dados Postgres
@@ -3101,7 +3126,7 @@ um novo banco de dados? (Y/N): " resposta
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 validar_senha() { 
@@ -3156,7 +3181,7 @@ validar_senha() {
 }
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Instalação das Ferramentas
@@ -3667,7 +3692,8 @@ cat > traefik.yaml << EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   traefik:
     image: traefik:v3.4.0
     command:
@@ -3720,7 +3746,8 @@ services:
         - "traefik.http.routers.http-catchall.middlewares=redirect-https@docker"
         - "traefik.http.routers.http-catchall.priority=1"
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   vol_shared:
     external: true
@@ -3756,6 +3783,11 @@ echo -e "\e[97m• ESPERANDO O TRAEFIK ESTAR ONLINE \e[33m[6/9]\e[0m"
 echo ""
 sleep 1
 
+## Em teste contra Rate Limit do Docker Hub
+pull ghcr.io/traefik/traefik:v3.4.0
+
+docker tag ghcr.io/traefik/traefik:v3.4.0 traefik/traefik:v3.4.0
+
 ## Usa o serviço wait_stack "traefik" para verificar se o serviço esta online
 wait_stack "traefik"
 
@@ -3780,7 +3812,8 @@ cat > portainer.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   agent:
     image: portainer/agent:latest ## Versão Agent do Portainer
 
@@ -3796,7 +3829,8 @@ services:
       placement:
         constraints: [node.platform.os == linux]
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   portainer:
     image: portainer/portainer-ce:latest ## Versão do Portainer
     command: -H tcp://tasks.agent:9001 --tlsskipverify
@@ -3822,7 +3856,8 @@ services:
         - "traefik.http.routers.portainer.entrypoints=websecure"
         - "traefik.http.routers.portainer.priority=1"
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   portainer_data:
     external: true
@@ -3854,6 +3889,8 @@ echo ""
 echo -e "\e[97m• ESPERANDO O PORTAINER ESTAR ONLINE \e[33m[8/9]\e[0m"
 echo ""
 sleep 1
+
+pull portainer/portainer-ce:latest
 
 ## Usa o serviço wait_portainer para verificar se o serviço esta online
 wait_stack "portainer"
@@ -4009,13 +4046,15 @@ cat > postgres.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   postgres:
     image: postgres:14 ## Versão do postgres
     command: >
       postgres
       -c max_connections=500
       -c shared_buffers=512MB
+      -c timezone=America/Sao_Paulo
 
     volumes:
       - postgres_data:/var/lib/postgresql/data
@@ -4024,14 +4063,14 @@ services:
       - $nome_rede_interna ## Nome da rede interna
 
     ## Descomente as linhas abaixo para uso externo
-    ports:
-      - 5432:5432
+    #ports:
+    #  - 5432:5432
 
     environment:
-      ## Senha do postgres 
+      ## 🔑 Senha do Postgres 
       - POSTGRES_PASSWORD=$senha_postgres
 
-      ## Timezone
+      ## 🌎 Timezone
       - TZ=America/Sao_Paulo
 
     deploy:
@@ -4045,7 +4084,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   postgres_data:
     external: true
@@ -4142,13 +4182,15 @@ cat > postgres${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   postgres:
     image: postgres:14 ## Versão do postgres
     command: >
       postgres
       -c max_connections=500
       -c shared_buffers=512MB
+      -c timezone=America/Sao_Paulo
 
     volumes:
       - postgres_data:/var/lib/postgresql/data
@@ -4161,10 +4203,10 @@ services:
     #  - 5432:5432
 
     environment:
-      ## Senha do postgres 
+      ## 🔑 Senha do Postgres 
       - POSTGRES_PASSWORD=$senha_postgres
 
-      ## Timezone
+      ## 🌎 Timezone
       - TZ=America/Sao_Paulo
 
     deploy:
@@ -4178,7 +4220,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   postgres${1:+_$1}_data:
     external: true
@@ -4279,13 +4322,15 @@ cat > pgvector.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   pgvector:
     image: pgvector/pgvector:pg16 ## Versão do PgVector
     command: >
       postgres
       -c max_connections=500
       -c shared_buffers=512MB
+      -c timezone=America/Sao_Paulo
 
     volumes:
       - pgvector:/var/lib/postgresql/data
@@ -4298,10 +4343,10 @@ services:
     #  - 5433:5432
 
     environment:
-      ## Senha do postgres 
+      ## 🔑 Senha do Postgres 
       - POSTGRES_PASSWORD=$senha_pgvector
 
-      ## Timezone
+      ## 🌎 Timezone
       - TZ=America/Sao_Paulo
 
     deploy:
@@ -4315,7 +4360,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   pgvector:
     external: true
@@ -4413,13 +4459,15 @@ cat > pgvector${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   pgvector${1:+_$1}:
     image: pgvector/pgvector:pg16 ## Versão do PgVector
     command: >
       postgres
       -c max_connections=500
       -c shared_buffers=512MB
+      -c timezone=America/Sao_Paulo
 
     volumes:
       - pgvector${1:+_$1}:/var/lib/postgresql/data
@@ -4432,10 +4480,10 @@ services:
     #  - 5433:5432
 
     environment:
-      ## Senha do postgres 
+      ## 🔑 Senha do Postgres 
       - POSTGRES_PASSWORD=$senha_pgvector
 
-      ## Timezone
+      ## 🌎 Timezone
       - TZ=America/Sao_Paulo
 
     deploy:
@@ -4449,7 +4497,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   pgvector${1:+_$1}:
     external: true
@@ -4549,7 +4598,8 @@ cat > redis.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   redis:
     image: redis:latest  ## Versão do Redis
     command: [
@@ -4579,7 +4629,8 @@ services:
           cpus: "1"
           memory: 2048M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   redis_data:
     external: true
@@ -4616,6 +4667,7 @@ Dominio do Redis: redis://redis:6379
 
 Usuario: redis
 
+Senha: Não tem
 EOL
 
 cd
@@ -4671,7 +4723,8 @@ cat > redis${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   redis${1:+_$1}:
     image: redis:latest  ## Versão do Redis
     command: [
@@ -4701,7 +4754,8 @@ services:
           cpus: "1"
           memory: 2048M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   redis${1:+_$1}_data:
     external: true
@@ -4750,6 +4804,7 @@ Dominio do Redis: redis://redis${1:+_$1}:6379
 
 Usuario: redis
 
+Senha: Não tem
 EOL
 
 cd
@@ -4806,7 +4861,8 @@ cat > mysql.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   mysql:
     image: percona/percona-server:8.0 ## Versão do MySQL
     command:
@@ -4829,10 +4885,10 @@ services:
     #  - 3306:3306
 
     environment:
-      ## Senha do MYSQL
+    ## 🔑 Senha do MYSQL
       - MYSQL_ROOT_PASSWORD=$senha_mysql
 
-      ## TimeZone
+    ## 🌎 TimeZone
       - TZ=America/Sao_Paulo
 
     deploy:
@@ -4844,7 +4900,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   mysql_data:
     external: true
@@ -4944,7 +5001,8 @@ cat > mysql${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   mysql${1:+_$1}:
     image: percona/percona-server:8.0 ## Versão do MySQL
     command:
@@ -4967,10 +5025,10 @@ services:
     #  - 3306:3306
 
     environment:
-      ## Senha do MYSQL
+    ## 🔑 Senha do MYSQL
       - MYSQL_ROOT_PASSWORD=$senha_mysql
 
-      ## TimeZone
+    ## 🌎 TimeZone
       - TZ=America/Sao_Paulo
 
     deploy:
@@ -4982,7 +5040,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   mysql${1:+_$1}_data:
     external: true
@@ -5252,7 +5311,8 @@ cat > chatwoot${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   chatwoot${1:+_$1}_app:
     image: chatwoot/chatwoot:v4.1.0 ## Versão do Chatwoot
     command: >
@@ -5269,38 +5329,44 @@ services:
       - $nome_rede_interna ## Nome da rede interna
     
     environment:
-      ## 🌐 Qualquer Url com # no final
+    ## 🌐 Qualquer Url com # no final
       #- CHATWOOT_HUB_URL=https://oriondesign.art.br/setup#
 
-      ## 🏢 Nome da Empresa
+    ## 🏢 Nome da Empresa
       - INSTALLATION_NAME=$nome_empresa_chatwoot
 
-      ## 🔐 Secret key
+    ## 🔐 Secret key
       - SECRET_KEY_BASE=$encryption_key
 
-      ## 💬 Url Chatwoot
+    ## 💬 Url Chatwoot
       - FRONTEND_URL=https://$url_chatwoot
       - FORCE_SSL=true
 
-      ## 🌍 Idioma/Localização padrão
+    ## 🌍 Idioma/Localização padrão
       - DEFAULT_LOCALE=pt_BR
       - TZ=America/Sao_Paulo
 
-      ## ☁️ Google Cloud - Modifique de acordo com os seus dados
+    ## ☁️ Google Cloud - Modifique de acordo com os seus dados
       #- GOOGLE_OAUTH_CLIENT_ID=369777777777-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com
       #- GOOGLE_OAUTH_CLIENT_SECRET=ABCDEF-GHijklmnoPqrstuvwX-yz1234567
       #- GOOGLE_OAUTH_CALLBACK_URL=https://<your-server-domain>/omniauth/google_oauth2/callback
 
-      ## 🧑‍💻 Dados do Redis
+    ## 🔐 Facebook e Instagram
+      #- IG_VERIFY_TOKEN=
+      #- FB_VERIFY_TOKEN=
+      #- FB_APP_SECRET=
+      #- FB_APP_ID=
+
+    ## 🧑‍💻 Dados do Redis
       - REDIS_URL=redis://chatwoot${1:+_$1}_redis:6379
 
-      ## 🗄️ Dados do Postgres
+    ## 🗄️ Dados do Postgres
       - POSTGRES_HOST=pgvector
       - POSTGRES_USERNAME=postgres
       - POSTGRES_PASSWORD=$senha_pgvector ## Senha do postgres
       - POSTGRES_DATABASE=chatwoot${1:+_$1}
 
-      ## 🏠 Armazenamento
+    ## 🏠 Armazenamento
       - ACTIVE_STORAGE_SERVICE=local ## use s3_compatible para MinIO
       #- STORAGE_BUCKET_NAME=chatwoot${1:+_$1}
       #- STORAGE_ACCESS_KEY_ID=ACCESS_KEY_MINIO
@@ -5309,7 +5375,7 @@ services:
       #- STORAGE_ENDPOINT=https://s3.DOMINIO.COM
       #- STORAGE_FORCE_PATH_STYLE=true
 
-      ## 📧 Dados do SMTP
+    ## 📧 Dados do SMTP
       - MAILER_SENDER_EMAIL=$email_admin_chatwoot <$email_admin_chatwoot> ## Email SMTP
       - SMTP_DOMAIN=$dominio_smtp_chatwoot ## Dominio do email
       - SMTP_ADDRESS=$smtp_email_chatwoot ## Host SMTP
@@ -5322,14 +5388,14 @@ services:
       - SMTP_OPENSSL_VERIFY_MODE=peer
       - MAILER_INBOUND_EMAIL_DOMAIN=$email_admin_chatwoot ## Email SMTP
 
-      ## ⚙️ Melhorias
+    ## ⚙️ Melhorias
       - SIDEKIQ_CONCURRENCY=10
       - RACK_TIMEOUT_SERVICE_TIMEOUT=0
       - RAILS_MAX_THREADS=5
       - WEB_CONCURRENCY=2
       - ENABLE_RACK_ATTACK=false
 
-      ## ⚡ Outras configurações
+    ## ⚡ Outras configurações
       - NODE_ENV=production
       - RAILS_ENV=production
       - INSTALLATION_ENV=docker
@@ -5359,7 +5425,8 @@ services:
         - traefik.http.middlewares.sslheader.headers.customrequestheaders.X-Forwarded-Proto=https
         - traefik.http.routers.chatwoot${1:+_$1}_app.middlewares=sslheader
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   chatwoot${1:+_$1}_sidekiq:
     image: chatwoot/chatwoot:v4.1.0 ## Versão do Chatwoot
     command: bundle exec sidekiq -C config/sidekiq.yml
@@ -5374,38 +5441,44 @@ services:
       - $nome_rede_interna ## Nome da rede interna
 
     environment:
-      ## 🌐 Qualquer Url com # no final
+    ## 🌐 Qualquer Url com # no final
       #- CHATWOOT_HUB_URL=https://oriondesign.art.br/setup#
 
-      ## 🏢 Nome da Empresa
+    ## 🏢 Nome da Empresa
       - INSTALLATION_NAME=$nome_empresa_chatwoot
 
-      ## 🔐 Secret key
+    ## 🔐 Secret key
       - SECRET_KEY_BASE=$encryption_key
 
-      ## 💬 Url Chatwoot
+    ## 💬 Url Chatwoot
       - FRONTEND_URL=https://$url_chatwoot
       - FORCE_SSL=true
 
-      ## 🌍 Idioma/Localização padrão
+    ## 🌍 Idioma/Localização padrão
       - DEFAULT_LOCALE=pt_BR
       - TZ=America/Sao_Paulo
 
-      ## ☁️ Google Cloud - Modifique de acordo com os seus dados
+    ## ☁️ Google Cloud - Modifique de acordo com os seus dados
       #- GOOGLE_OAUTH_CLIENT_ID=369777777777-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com
       #- GOOGLE_OAUTH_CLIENT_SECRET=ABCDEF-GHijklmnoPqrstuvwX-yz1234567
       #- GOOGLE_OAUTH_CALLBACK_URL=https://<your-server-domain>/omniauth/google_oauth2/callback
 
-      ## 🧑‍💻 Dados do Redis
+    ## 🔐 Facebook e Instagram
+      #- IG_VERIFY_TOKEN=
+      #- FB_VERIFY_TOKEN=
+      #- FB_APP_SECRET=
+      #- FB_APP_ID=
+
+    ## 🧑‍💻 Dados do Redis
       - REDIS_URL=redis://chatwoot${1:+_$1}_redis:6379
 
-      ## 🗄️ Dados do Postgres
+    ## 🗄️ Dados do Postgres
       - POSTGRES_HOST=pgvector
       - POSTGRES_USERNAME=postgres
       - POSTGRES_PASSWORD=$senha_pgvector ## Senha do postgres
       - POSTGRES_DATABASE=chatwoot${1:+_$1}
 
-      ## 🏠 Armazenamento
+    ## 🏠 Armazenamento
       - ACTIVE_STORAGE_SERVICE=local ## use s3_compatible para MinIO
       #- STORAGE_BUCKET_NAME=chatwoot${1:+_$1}
       #- STORAGE_ACCESS_KEY_ID=ACCESS_KEY_MINIO
@@ -5414,7 +5487,7 @@ services:
       #- STORAGE_ENDPOINT=https://s3.DOMINIO.COM
       #- STORAGE_FORCE_PATH_STYLE=true
 
-      ## 📧 Dados do SMTP
+    ## 📧 Dados do SMTP
       - MAILER_SENDER_EMAIL=$email_admin_chatwoot <$email_admin_chatwoot> ## Email SMTP
       - SMTP_DOMAIN=$dominio_smtp_chatwoot ## Dominio do email
       - SMTP_ADDRESS=$smtp_email_chatwoot ## Host SMTP
@@ -5427,14 +5500,14 @@ services:
       - SMTP_OPENSSL_VERIFY_MODE=peer
       - MAILER_INBOUND_EMAIL_DOMAIN=$email_admin_chatwoot ## Email SMTP
 
-      ## ⚙️ Melhorias
+    ## ⚙️ Melhorias
       - SIDEKIQ_CONCURRENCY=10
       - RACK_TIMEOUT_SERVICE_TIMEOUT=0
       - RAILS_MAX_THREADS=5
       - WEB_CONCURRENCY=2
       - ENABLE_RACK_ATTACK=false
 
-      ## ⚡ Outras configurações
+    ## ⚡ Outras configurações
       - NODE_ENV=production
       - RAILS_ENV=production
       - INSTALLATION_ENV=docker
@@ -5453,7 +5526,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   chatwoot${1:+_$1}_redis:
     image: redis:latest  ## Versão do Redis
     command: [
@@ -5481,9 +5555,10 @@ services:
       resources:
         limits:
           cpus: "1"
-          memory: 2048M
+          memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   chatwoot${1:+_$1}_storage:
     external: true
@@ -5497,7 +5572,6 @@ volumes:
   chatwoot${1:+_$1}_mailers:
     external: true
     name: chatwoot${1:+_$1}_mailers
-  volumes:
   chatwoot${1:+_$1}_redis:
     external: true
     name: chatwoot${1:+_$1}_redis
@@ -5540,7 +5614,7 @@ echo ""
 ## Mensagem de Passo
 echo -e "\e[97m• MIGRANDO BANCO DE DADOS \e[33m[5/6]\e[0m"
 echo ""
-sleep 1
+sleep 7
 
 ## Aqui vamos estar migrando o banco de dados usando o comando "bundle exec rails db:chatwoot_prepare"
 
@@ -5773,7 +5847,8 @@ cat > evolution${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   evolution${1:+_$1}_api:
     image: evoapicloud/evolution-api:latest ## Versão da Evolution API
 
@@ -5784,7 +5859,7 @@ services:
       - $nome_rede_interna ## Nome da rede interna
 
     environment:
-      ## ⚙️ Configurações Gerais
+    ## ⚙️ Configurações Gerais
       - SERVER_URL=https://$url_evolution
       - AUTHENTICATION_API_KEY=$apikeyglobal
       - AUTHENTICATION_EXPOSE_IN_FETCH_INSTANCES=true
@@ -5792,11 +5867,13 @@ services:
       - QRCODE_LIMIT=1902
       - LANGUAGE=pt-BR
       
-      ## 📱 Configuração do Cliente
-      - CONFIG_SESSION_PHONE_CLIENT=Hostfy
+    ## 📱 Configuração do Cliente
+    ## Pegue a versão em: https://web.whatsapp.com/sw.js
+      #- CONFIG_SESSION_PHONE_VERSION=2.3000.1025815458
+      - CONFIG_SESSION_PHONE_CLIENT=OrionDesign
       - CONFIG_SESSION_PHONE_NAME=Chrome
       
-      ## 🗄️ Configuração do Banco de Dados
+    ## 🗄️ Configuração do Banco de Dados
       - DATABASE_ENABLED=true
       - DATABASE_PROVIDER=postgresql
       - DATABASE_CONNECTION_URI=postgresql://postgres:$senha_postgres@postgres:5432/evolution${1:+_$1}
@@ -5809,37 +5886,37 @@ services:
       - DATABASE_SAVE_DATA_LABELS=true
       - DATABASE_SAVE_DATA_HISTORIC=true
 
-      ## 🤖 Integração com N8N
+    ## 🤖 Integração com N8N
       - N8N_ENABLED=true
 
-      ## 🤖 Integração com EvoAI
+    ## 🤖 Integração com EvoAI
       - EVOAI_ENABLED=true
       
-      ## 🤖 Integração com OpenAI
+    ## 🤖 Integração com OpenAI
       - OPENAI_ENABLED=true
       
-      ## 🌐 Integração com Dify
+    ## 🌐 Integração com Dify
       - DIFY_ENABLED=true
       
-      ## 💬 Integração com Typebot
+    ## 💬 Integração com Typebot
       - TYPEBOT_ENABLED=true
       - TYPEBOT_API_VERSION=latest
       
-      ## 🗣️ Integração com Chatwoot
+    ## 🗣️ Integração com Chatwoot
       - CHATWOOT_ENABLED=true
       - CHATWOOT_MESSAGE_READ=true
       - CHATWOOT_MESSAGE_DELETE=true
       - CHATWOOT_IMPORT_DATABASE_CONNECTION_URI=postgresql://postgres:SENHA_DO_PGVECTOR@pgvector:5432/chatwoot?sslmode=disable
       - CHATWOOT_IMPORT_PLACEHOLDER_MEDIA_MESSAGE=false
       
-      ## 🧊 Configuração do Cache
+    ## 🧊 Configuração do Cache
       - CACHE_REDIS_ENABLED=true
       - CACHE_REDIS_URI=redis://evolution${1:+_$1}_redis:6379/1
       - CACHE_REDIS_PREFIX_KEY=evolution
       - CACHE_REDIS_SAVE_INSTANCES=false
       - CACHE_LOCAL_ENABLED=false
       
-      ## ☁️ Configuração do S3
+    ## ☁️ Configuração do S3
       - S3_ENABLED=false
       - S3_ACCESS_KEY=
       - S3_SECRET_KEY=
@@ -5849,28 +5926,28 @@ services:
       - S3_USE_SSL=true
       #- S3_REGION=eu-south
 
-      ## 💼 Configuração do WhatsApp Business
-      - WA_BUSINESS_TOKEN_WEBHOOK=evolution
+    ## 💼 Configuração do WhatsApp Business
+      - WA_BUSINESS_TOKEN_WEBHOOK=evolution${1:+_$1}
       - WA_BUSINESS_URL=https://graph.facebook.com
-      - WA_BUSINESS_VERSION=v21.0
+      - WA_BUSINESS_VERSION=v23.0
       - WA_BUSINESS_LANGUAGE=pt_BR
 
-      ## 📊 Telemetria
+    ## 📊 Telemetria
       - TELEMETRY=false
       - TELEMETRY_URL=
 
-      ## 🌐 Configuração do WebSocket
+    ## 🌐 Configuração do WebSocket
       - WEBSOCKET_ENABLED=false
       - WEBSOCKET_GLOBAL_EVENTS=false
 
-      ## 📨 Configuração do SQS
+    ## 📨 Configuração do SQS
       - SQS_ENABLED=false
       - SQS_ACCESS_KEY_ID=
       - SQS_SECRET_ACCESS_KEY=
       - SQS_ACCOUNT_ID=
       - SQS_REGION=
 
-      ## 🐇 Configuração do RabbitMQ
+    ## 🐇 Configuração do RabbitMQ
       - RABBITMQ_ENABLED=false
       - RABBITMQ_FRAME_MAX=8192
       - RABBITMQ_URI=amqp://USER:PASS@rabbitmq:5672/evolution${1:+_$1}
@@ -5903,7 +5980,7 @@ services:
       - RABBITMQ_EVENTS_TYPEBOT_START=false
       - RABBITMQ_EVENTS_TYPEBOT_CHANGE_STATUS=false
 
-      ## 🌐 Configuração do Webhook
+    ## 🌐 Configuração do Webhook
       - WEBHOOK_GLOBAL_ENABLED=false
       - WEBHOOK_GLOBAL_URL=
       - WEBHOOK_GLOBAL_WEBHOOK_BY_EVENTS=false
@@ -5943,12 +6020,12 @@ services:
       - WEBHOOK_RETRY_JITTER_FACTOR=0.2
       - WEBHOOK_RETRY_NON_RETRYABLE_STATUS_CODES=400,401,403,404,422
 
-      ## 🔌 Configuração do Provider
+    ## 🔌 Configuração do Provider
       - PROVIDER_ENABLED=false
       - PROVIDER_HOST=127.0.0.1
       - PROVIDER_PORT=5656
       - PROVIDER_PREFIX=evolution${1:+_$1}
-      
+
     deploy:
       mode: replicated
       replicas: 1
@@ -5965,7 +6042,8 @@ services:
         - traefik.http.services.evolution${1:+_$1}.loadbalancer.server.port=8080
         - traefik.http.services.evolution${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   evolution${1:+_$1}_redis:
     image: redis:latest  ## Versão do Redis
     command: [
@@ -5995,7 +6073,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   evolution${1:+_$1}_instances:
     external: true
@@ -6217,7 +6296,8 @@ cat > evolution${1:+_$1}_lite.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   evolution${1:+_$1}_lite:
     image: atendai/evolution-api-lite:latest ## Versão da Evolution API
     entrypoint: ["/bin/bash", "-c", ". ./Docker/scripts/deploy_database.sh && npm run start:prod" ]
@@ -6229,7 +6309,7 @@ services:
       - $nome_rede_interna ## Nome da rede interna
 
     environment:
-      ## ⚙️ Configurações Gerais
+    ## ⚙️ Configurações Gerais
       - SERVER_URL=https://$url_evolution
       - AUTHENTICATION_API_KEY=$apikeyglobal
       - AUTHENTICATION_EXPOSE_IN_FETCH_INSTANCES=true
@@ -6237,13 +6317,13 @@ services:
       - QRCODE_LIMIT=1902
       - LANGUAGE=pt-BR
       
-      ## 📱 Configuração do Cliente
-      ## Pegue a versão em: https://web.whatsapp.com/sw.js
-      - CONFIG_SESSION_PHONE_VERSION=2.3000.1023015479
+    ## 📱 Configuração do Cliente
+    ## Pegue a versão em: https://web.whatsapp.com/sw.js
+      - CONFIG_SESSION_PHONE_VERSION=2.3000.1025815458
       - CONFIG_SESSION_PHONE_CLIENT=OrionDesign
       - CONFIG_SESSION_PHONE_NAME=Chrome
       
-      ## 🗄️ Configuração do Banco de Dados
+    ## 🗄️ Configuração do Banco de Dados
       - DATABASE_ENABLED=true
       - DATABASE_PROVIDER=postgresql
       - DATABASE_CONNECTION_URI=postgresql://postgres:$senha_postgres@postgres:5432/evolution${1:+_$1}_lite
@@ -6256,14 +6336,14 @@ services:
       - DATABASE_SAVE_DATA_LABELS=true
       - DATABASE_SAVE_DATA_HISTORIC=true
       
-      ## 🧊 Configuração do Cache
+    ## 🧊 Configuração do Cache
       - CACHE_REDIS_ENABLED=true
       - CACHE_REDIS_URI=redis://evolution${1:+_$1}_lite_redis:6379/8
       - CACHE_REDIS_PREFIX_KEY=evolution
       - CACHE_REDIS_SAVE_INSTANCES=false
       - CACHE_LOCAL_ENABLED=false
       
-      ## ☁️ Configuração do S3
+    ## ☁️ Configuração do S3
       - S3_ENABLED=false
       - S3_ACCESS_KEY=
       - S3_SECRET_KEY=
@@ -6273,28 +6353,28 @@ services:
       - S3_USE_SSL=true
       #- S3_REGION=eu-south
 
-      ## 💼 Configuração do WhatsApp Business
+    ## 💼 Configuração do WhatsApp Business
       - WA_BUSINESS_TOKEN_WEBHOOK=evolution
       - WA_BUSINESS_URL=https://graph.facebook.com
       - WA_BUSINESS_VERSION=v20.0
       - WA_BUSINESS_LANGUAGE=pt_BR
 
-      ## 📊 Telemetria
+    ## 📊 Telemetria
       - TELEMETRY=false
       - TELEMETRY_URL=
 
-      ## 🌐 Configuração do WebSocket
+    ## 🌐 Configuração do WebSocket
       - WEBSOCKET_ENABLED=false
       - WEBSOCKET_GLOBAL_EVENTS=false
 
-      ## 📨 Configuração do SQS
+    ## 📨 Configuração do SQS
       - SQS_ENABLED=false
       - SQS_ACCESS_KEY_ID=
       - SQS_SECRET_ACCESS_KEY=
       - SQS_ACCOUNT_ID=
       - SQS_REGION=
 
-      ## 🐇 Configuração do RabbitMQ
+    ## 🐇 Configuração do RabbitMQ
       - RABBITMQ_ENABLED=false
       - RABBITMQ_URI=amqp://USER:PASS@rabbitmq:5672/evolution${1:+_$1}
       - RABBITMQ_EXCHANGE_NAME=evolution
@@ -6325,7 +6405,7 @@ services:
       - RABBITMQ_EVENTS_TYPEBOT_START=false
       - RABBITMQ_EVENTS_TYPEBOT_CHANGE_STATUS=false
 
-      ## 🌐 Configuração do Webhook
+    ## 🌐 Configuração do Webhook
       - WEBHOOK_GLOBAL_ENABLED=false
       - WEBHOOK_GLOBAL_URL=
       - WEBHOOK_GLOBAL_WEBHOOK_BY_EVENTS=false
@@ -6357,7 +6437,7 @@ services:
       - WEBHOOK_EVENTS_ERRORS=false
       - WEBHOOK_EVENTS_ERRORS_WEBHOOK=
 
-      ## 🔌 Configuração do Provider
+    ## 🔌 Configuração do Provider
       - PROVIDER_ENABLED=false
       - PROVIDER_HOST=127.0.0.1
       - PROVIDER_PORT=5656
@@ -6379,7 +6459,8 @@ services:
         - traefik.http.services.evolution${1:+_$1}_lite.loadbalancer.server.port=8080
         - traefik.http.services.evolution${1:+_$1}_lite.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   evolution${1:+_$1}_lite_redis:
     image: redis:latest  ## Versão do Redis
     command: [
@@ -6409,7 +6490,8 @@ services:
           cpus: "1"
           memory: 2048M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   evolution${1:+_$1}_lite_instances:
     external: true
@@ -6607,9 +6689,10 @@ cat > evolution_v1${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   evolution_oriondesign${1:+_$1}:
-    image: atendai/evolution-api:v1.8.3 ## Versão da Evolution API
+    image: evoapicloud/evolution-api:v1.8.5 ## Versão da Evolution API
     command: ["node", "./dist/src/main.js"]
 
     volumes:
@@ -6736,7 +6819,8 @@ services:
         - traefik.http.services.evolution_oriondesign${1:+_$1}.loadbalancer.server.port=8080
         - traefik.http.services.evolution_oriondesign${1:+_$1}.loadbalancer.passHostHeader=1
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   evolution_oriondesign${1:+_$1}_instances:
     external: true
@@ -6776,7 +6860,7 @@ echo -e "\e[97m• VERIFICANDO SERVIÇO \e[33m[3/3]\e[0m"
 echo ""
 sleep 1
 
-pull atendai/evolution-api:v1.8.3
+pull evoapicloud/evolution-api:v1.8.5
 
 ## Usa o serviço wait_evolution para verificar se o serviço esta online
 wait_stack "evolution_v1${1:+_$1}_evolution_oriondesign${1:+_$1}"
@@ -6904,7 +6988,7 @@ while true; do
 done
 
 ## Mensagem de Passo
-echo -e "\e[97m• INICIANDO A INSTALAÇÃO DA EVOLUTION API \e[33m[1/5]\e[0m"
+echo -e "\e[97m• INICIANDO A INSTALAÇÃO DA EVOLUTION API \e[33m[1/4]\e[0m"
 echo ""
 sleep 1
 
@@ -6915,7 +6999,7 @@ telemetria "Evolution API" "iniciado"
 ## E claro, para aparecer a mensagem do passo..
 
 ## Mensagem de Passo
-echo -e "\e[97m• VERIFICANDO/INSTALANDO POSTGRES \e[33m[2/5]\e[0m"
+echo -e "\e[97m• VERIFICANDO/INSTALANDO POSTGRES \e[33m[2/4]\e[0m"
 echo ""
 sleep 1
 
@@ -6929,31 +7013,17 @@ if [ $? -eq 0 ]; then
     echo "1/3 - [ OK ] - Postgres já instalado"
     pegar_senha_postgres > /dev/null 2>&1
     echo "2/3 - [ OK ] - Copiando senha do Postgres"
-    criar_banco_postgres_da_stack "evolution${1:+_$1}"
+    criar_banco_postgres_da_stack "evolution${1:+_$1}_v2"
     echo "3/3 - [ OK ] - Criando banco de dados"
     echo ""
 else
     ferramenta_postgres
     pegar_senha_postgres > /dev/null 2>&1
-    criar_banco_postgres_da_stack "evolution${1:+_$1}"
+    criar_banco_postgres_da_stack "evolution${1:+_$1}_v2"
 fi
 
 ## Mensagem de Passo
-echo -e "\e[97m• VERIFICANDO/INSTALANDO REDIS \e[33m[3/5]\e[0m"
-echo ""
-sleep 1
-
-## Verifica/instala o Redis
-verificar_container_redis
-if [ $? -eq 0 ]; then
-    echo "1/1 - [ OK ] - Redis já instalado"
-    echo ""
-else
-    ferramenta_redis
-fi
-
-## Mensagem de Passo
-echo -e "\e[97m• INSTALANDO A EVOLUTION API \e[33m[4/5]\e[0m"
+echo -e "\e[97m• INSTALANDO A EVOLUTION API \e[33m[3/4]\e[0m"
 echo ""
 sleep 1
 
@@ -6967,7 +7037,8 @@ cat > evolution_v2${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   evolution${1:+_$1}:
     image: atendai/evolution-api:v2.1.2 ## Versão da Evolution API
 
@@ -6978,7 +7049,7 @@ services:
       - $nome_rede_interna ## Nome da rede interna
 
     environment:
-      ## Configurações Gerais
+    ## ⚙️ Configurações Gerais
       - SERVER_URL=https://$url_evolution
       - AUTHENTICATION_API_KEY=$apikeyglobal
       - AUTHENTICATION_EXPOSE_IN_FETCH_INSTANCES=true
@@ -6986,17 +7057,17 @@ services:
       - QRCODE_LIMIT=1902
       - LANGUAGE=pt-BR
       
-      ## Configuração do Cliente
-      ## Pegue a versão em: https://web.whatsapp.com/sw.js
-      - CONFIG_SESSION_PHONE_VERSION=2.3000.1023015479
+    ## 📱 Configuração do Cliente
+    ## Pegue a versão em: https://web.whatsapp.com/sw.js
+      #- CONFIG_SESSION_PHONE_VERSION=2.3000.1025815458
       - CONFIG_SESSION_PHONE_CLIENT=OrionDesign
       - CONFIG_SESSION_PHONE_NAME=Chrome
       
-      ## Configuração do Banco de Dados
+    ## 🗄️ Configuração do Banco de Dados
       - DATABASE_ENABLED=true
       - DATABASE_PROVIDER=postgresql
-      - DATABASE_CONNECTION_URI=postgresql://postgres:$senha_postgres@postgres:5432/evolution${1:+_$1}
-      - DATABASE_CONNECTION_CLIENT_NAME=evolution${1:+_$1}
+      - DATABASE_CONNECTION_URI=postgresql://postgres:$senha_postgres@postgres:5432/evolution${1:+_$1}_v2
+      - DATABASE_CONNECTION_CLIENT_NAME=evolution${1:+_$1}_v2
       - DATABASE_SAVE_DATA_INSTANCE=true
       - DATABASE_SAVE_DATA_NEW_MESSAGE=true
       - DATABASE_SAVE_MESSAGE_UPDATE=true
@@ -7004,32 +7075,38 @@ services:
       - DATABASE_SAVE_DATA_CHATS=true
       - DATABASE_SAVE_DATA_LABELS=true
       - DATABASE_SAVE_DATA_HISTORIC=true
+
+    ## 🤖 Integração com N8N
+      - N8N_ENABLED=true
+
+    ## 🤖 Integração com EvoAI
+      - EVOAI_ENABLED=true
       
-      ## Integração com OpenAI
+    ## 🤖 Integração com OpenAI
       - OPENAI_ENABLED=true
       
-      ## Integração com Dify
+    ## 🌐 Integração com Dify
       - DIFY_ENABLED=true
       
-      ## Integração com Typebot
+    ## 💬 Integração com Typebot
       - TYPEBOT_ENABLED=true
       - TYPEBOT_API_VERSION=latest
       
-      ## Integração com Chatwoot
+    ## 🗣️ Integração com Chatwoot
       - CHATWOOT_ENABLED=true
       - CHATWOOT_MESSAGE_READ=true
       - CHATWOOT_MESSAGE_DELETE=true
-      - CHATWOOT_IMPORT_DATABASE_CONNECTION_URI=postgresql://postgres:$senha_postgres@postgres:5432/chatwoot?sslmode=disable
+      - CHATWOOT_IMPORT_DATABASE_CONNECTION_URI=postgresql://postgres:SENHA_DO_PGVECTOR@pgvector:5432/chatwoot?sslmode=disable
       - CHATWOOT_IMPORT_PLACEHOLDER_MEDIA_MESSAGE=false
       
-      ## Configuração do Cache
+    ## 🧊 Configuração do Cache
       - CACHE_REDIS_ENABLED=true
-      - CACHE_REDIS_URI=redis://redis:6379/8
+      - CACHE_REDIS_URI=redis://evolution${1:+_$1}_v2_redis:6379/1
       - CACHE_REDIS_PREFIX_KEY=evolution
       - CACHE_REDIS_SAVE_INSTANCES=false
       - CACHE_LOCAL_ENABLED=false
       
-      ## Configuração do S3
+    ## ☁️ Configuração do S3
       - S3_ENABLED=false
       - S3_ACCESS_KEY=
       - S3_SECRET_KEY=
@@ -7039,29 +7116,30 @@ services:
       - S3_USE_SSL=true
       #- S3_REGION=eu-south
 
-      ## Configuração do WhatsApp Business
-      - WA_BUSINESS_TOKEN_WEBHOOK=evolution
+    ## 💼 Configuração do WhatsApp Business
+      - WA_BUSINESS_TOKEN_WEBHOOK=evolution${1:+_$1}
       - WA_BUSINESS_URL=https://graph.facebook.com
-      - WA_BUSINESS_VERSION=v20.0
+      - WA_BUSINESS_VERSION=v23.0
       - WA_BUSINESS_LANGUAGE=pt_BR
 
-      ## Telemetria
+    ## 📊 Telemetria
       - TELEMETRY=false
       - TELEMETRY_URL=
 
-      ## Configuração do WebSocket
+    ## 🌐 Configuração do WebSocket
       - WEBSOCKET_ENABLED=false
       - WEBSOCKET_GLOBAL_EVENTS=false
 
-      ## Configuração do SQS
+    ## 📨 Configuração do SQS
       - SQS_ENABLED=false
       - SQS_ACCESS_KEY_ID=
       - SQS_SECRET_ACCESS_KEY=
       - SQS_ACCOUNT_ID=
       - SQS_REGION=
 
-      ## Configuração do RabbitMQ
+    ## 🐇 Configuração do RabbitMQ
       - RABBITMQ_ENABLED=false
+      - RABBITMQ_FRAME_MAX=8192
       - RABBITMQ_URI=amqp://USER:PASS@rabbitmq:5672/evolution${1:+_$1}
       - RABBITMQ_EXCHANGE_NAME=evolution
       - RABBITMQ_GLOBAL_ENABLED=false
@@ -7069,6 +7147,7 @@ services:
       - RABBITMQ_EVENTS_INSTANCE_CREATE=false
       - RABBITMQ_EVENTS_INSTANCE_DELETE=false
       - RABBITMQ_EVENTS_QRCODE_UPDATED=false
+      - RABBITMQ_EVENTS_SEND_MESSAGE_UPDATE=false
       - RABBITMQ_EVENTS_MESSAGES_SET=false
       - RABBITMQ_EVENTS_MESSAGES_UPSERT=true
       - RABBITMQ_EVENTS_MESSAGES_EDITED=false
@@ -7091,13 +7170,14 @@ services:
       - RABBITMQ_EVENTS_TYPEBOT_START=false
       - RABBITMQ_EVENTS_TYPEBOT_CHANGE_STATUS=false
 
-      ## Configuração do Webhook
+    ## 🌐 Configuração do Webhook
       - WEBHOOK_GLOBAL_ENABLED=false
       - WEBHOOK_GLOBAL_URL=
       - WEBHOOK_GLOBAL_WEBHOOK_BY_EVENTS=false
       - WEBHOOK_EVENTS_APPLICATION_STARTUP=false
       - WEBHOOK_EVENTS_QRCODE_UPDATED=false
       - WEBHOOK_EVENTS_MESSAGES_SET=false
+      - WEBHOOK_EVENTS_SEND_MESSAGE_UPDATE=false
       - WEBHOOK_EVENTS_MESSAGES_UPSERT=false
       - WEBHOOK_EVENTS_MESSAGES_EDITED=false
       - WEBHOOK_EVENTS_MESSAGES_UPDATE=false
@@ -7122,8 +7202,15 @@ services:
       - WEBHOOK_EVENTS_TYPEBOT_CHANGE_STATUS=false
       - WEBHOOK_EVENTS_ERRORS=false
       - WEBHOOK_EVENTS_ERRORS_WEBHOOK=
+      - WEBHOOK_REQUEST_TIMEOUT_MS=60000
+      - WEBHOOK_RETRY_MAX_ATTEMPTS=10
+      - WEBHOOK_RETRY_INITIAL_DELAY_SECONDS=5
+      - WEBHOOK_RETRY_USE_EXPONENTIAL_BACKOFF=true
+      - WEBHOOK_RETRY_MAX_DELAY_SECONDS=300
+      - WEBHOOK_RETRY_JITTER_FACTOR=0.2
+      - WEBHOOK_RETRY_NON_RETRYABLE_STATUS_CODES=400,401,403,404,422
 
-      ## Configuração do Provider
+    ## 🔌 Configuração do Provider
       - PROVIDER_ENABLED=false
       - PROVIDER_HOST=127.0.0.1
       - PROVIDER_PORT=5656
@@ -7145,11 +7232,46 @@ services:
         - traefik.http.services.evolution_v2${1:+_$1}.loadbalancer.server.port=8080
         - traefik.http.services.evolution_v2${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
+  evolution${1:+_$1}_v2_redis:
+    image: redis:latest  ## Versão do Redis
+    command: [
+        "redis-server",
+        "--appendonly",
+        "yes",
+        "--port",
+        "6379"
+      ]
+
+    volumes:
+      - evolution${1:+_$1}_v2_redis:/data
+
+    networks:
+      - $nome_rede_interna ## Nome da rede interna
+
+    ## Descomente as linhas abaixo para uso externo
+    #ports:
+    #  - 6379:6379
+
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
+      resources:
+        limits:
+          cpus: "1"
+          memory: 1024M
+
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   evolution${1:+_$1}_instances:
     external: true
     name: evolution${1:+_$1}_instances
+  evolution${1:+_$1}_v2_redis:
+    external: true
+    name: evolution${1:+_$1}_v2_redis
 
 networks:
   $nome_rede_interna: ## Nome da rede interna
@@ -7176,7 +7298,7 @@ stack_editavel # > /dev/null 2>&1
 sleep 10
 
 ## Mensagem de Passo
-echo -e "\e[97m• VERIFICANDO SERVIÇO \e[33m[5/5]\e[0m"
+echo -e "\e[97m• VERIFICANDO SERVIÇO \e[33m[4/4]\e[0m"
 echo ""
 sleep 1
 
@@ -7354,9 +7476,11 @@ cat > minio${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   minio${1:+_$1}:
-    image: quay.io/minio/minio:RELEASE.2024-12-18T13-15-44Z-cpuv1 ## Versão do Minio
+    image: quay.io/minio/minio:latest ## Versão do MinIO
+    #image: quay.io/minio/minio:RELEASE.2024-01-13T07-53-03Z-cpuv1 ## Versão antiga do MinIO
     command: server /data --console-address ":9001"
 
     volumes:
@@ -7366,15 +7490,15 @@ services:
       - $nome_rede_interna ## Nome da rede interna
 
     environment:
-      ## Dados de acesso
+    ## 🔑 Dados de acesso
       - MINIO_ROOT_USER=$user_minio
-      - MINIO_ROOT_PASSWORD=$senha_minio ## Precisa conter no minimo 8 caracteres
+      - MINIO_ROOT_PASSWORD=$senha_minio
 
-      ## Url do minio
+    ## 🌐 URL do MinIO
       - MINIO_BROWSER_REDIRECT_URL=https://$url_minio ## Url do minio
       - MINIO_SERVER_URL=https://$url_s3 ## Url do s3 | Comente esta linha caso tiver erro ao fazer login
 
-      ## Região
+    ## 📍 Região
       - MINIO_REGION_NAME=eu-south
 
     deploy:
@@ -7385,12 +7509,14 @@ services:
           - node.role == manager
       labels:
         - traefik.enable=true
+        ## Console
         - traefik.http.routers.minio_public${1:+_$1}.rule=Host(\`$url_s3\`) ## Url do s3
         - traefik.http.routers.minio_public${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.minio_public${1:+_$1}.tls.certresolver=letsencryptresolver
         - traefik.http.services.minio_public${1:+_$1}.loadbalancer.server.port=9000
         - traefik.http.services.minio_public${1:+_$1}.loadbalancer.passHostHeader=true
         - traefik.http.routers.minio_public${1:+_$1}.service=minio_public${1:+_$1}
+        ## API S3
         - traefik.http.routers.minio_console${1:+_$1}.rule=Host(\`$url_minio\`) ## Url do minio
         - traefik.http.routers.minio_console${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.minio_console${1:+_$1}.tls.certresolver=letsencryptresolver
@@ -7398,7 +7524,8 @@ services:
         - traefik.http.services.minio_console${1:+_$1}.loadbalancer.passHostHeader=true
         - traefik.http.routers.minio_console${1:+_$1}.service=minio_console${1:+_$1}
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   minio${1:+_$1}_data:
     external: true
@@ -7433,7 +7560,7 @@ echo ""
 sleep 1
 
 ## Baixando imagens:
-pull quay.io/minio/minio:RELEASE.2024-12-18T13-15-44Z-cpuv1 
+pull quay.io/minio/minio:latest
 
 ## Usa o serviço wait_minio para verificar se o serviço esta online
 wait_stack minio${1:+_$1}_minio${1:+_$1}
@@ -7701,7 +7828,8 @@ cat > typebot${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   typebot${1:+_$1}_builder:
     image: baptistearno/typebot-builder:$versao_typebot ## Versão do Builder do Typebot
 
@@ -7709,25 +7837,25 @@ services:
       - $nome_rede_interna ## Nome da rede interna
 
     environment:
-      ## Dados do Postgres
+    ## 🗄️ Dados do Postgres
       - DATABASE_URL=postgresql://postgres:$senha_postgres@postgres:5432/typebot${1:+_$1}
 
-      ## Encryption key
+    ## 🔐 Encryption key
       - ENCRYPTION_SECRET=$key_typebot
       - AUTH_TRUST_HOST=https://$url_typebot
 
-      ## Plano Padrão (das novas contas)
-      - DEFAULT_WORKSPACE_PLAN=UNLIMITED
+    ## 📦 Plano Padrão (das novas contas)
+      - DEFAULT_WORKSPACE_PLAN=UNLIMITED ## FREE, STARTER, PRO, LIFETIME ou UNLIMITED
 
-      ## Urls do typebot
+    ## 🌐 Urls do typebot
       - NEXTAUTH_URL=https://$url_typebot ## URL Builder
       - NEXT_PUBLIC_VIEWER_URL=https://$url_viewer ## URL Viewer
       - NEXTAUTH_URL_INTERNAL=http://localhost:3000
 
-      ## Desativer/ativar novos cadastros
+    ## 🚫 Desativar/ativar novos cadastros
       - DISABLE_SIGNUP=false
 
-      ## Dados do SMTP
+    ## 📧 Dados do SMTP
       - ADMIN_EMAIL=$email_typebot ## Email SMTP
       - NEXT_PUBLIC_SMTP_FROM='Suporte' <$email_typebot>
       - SMTP_AUTH_DISABLED=false
@@ -7737,18 +7865,20 @@ services:
       - SMTP_PORT=$porta_smtp_typebot
       - SMTP_SECURE=$smtp_secure_typebot
 
-      ## Dados Google Cloud
+    ## ☁️ Dados Google Cloud
       #- GOOGLE_AUTH_CLIENT_ID=
       #- GOOGLE_SHEETS_CLIENT_ID=
       #- GOOGLE_AUTH_CLIENT_SECRET=
       #- GOOGLE_SHEETS_CLIENT_SECRET=
       #- NEXT_PUBLIC_GOOGLE_SHEETS_API_KEY=
 
-      ## Dados do Minio/S3
+    ## 🗃️ Dados do Minio/S3
       - S3_ACCESS_KEY=$S3_ACCESS_KEY
       - S3_SECRET_KEY=$S3_SECRET_KEY
       - S3_BUCKET=typebot${1:+-$1}
       - S3_ENDPOINT=$url_s3
+      - S3_REGION=eu-south
+      - NEXT_PUBLIC_BOT_FILE_UPLOAD_MAX_SIZE=250
 
     deploy:
       mode: replicated
@@ -7770,7 +7900,8 @@ services:
         - traefik.http.services.typebot${1:+_$1}_builder.loadbalancer.passHostHeader=true
         - traefik.http.routers.typebot${1:+_$1}_builder.service=typebot${1:+_$1}_builder
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   typebot${1:+_$1}_viewer:
     image: baptistearno/typebot-viewer:$versao_typebot ## Versão do Viewer do Typebot
 
@@ -7778,25 +7909,25 @@ services:
       - $nome_rede_interna ## Nome da rede interna
 
     environment:
-      ## Dados do Postgres
+    ## 🗄️ Dados do Postgres
       - DATABASE_URL=postgresql://postgres:$senha_postgres@postgres:5432/typebot${1:+_$1}
 
-      ## Encryption key
+    ## 🔐 Encryption key
       - ENCRYPTION_SECRET=$key_typebot
       - AUTH_TRUST_HOST=https://$url_typebot
 
-      ## Plano Padrão (das novas contas)
-      - DEFAULT_WORKSPACE_PLAN=UNLIMITED
+    ## 📦 Plano Padrão (das novas contas)
+      - DEFAULT_WORKSPACE_PLAN=UNLIMITED ## FREE, STARTER, PRO, LIFETIME ou UNLIMITED
 
-      ## Urls do typebot
+    ## 🌐 Urls do typebot
       - NEXTAUTH_URL=https://$url_typebot ## URL Builder
       - NEXT_PUBLIC_VIEWER_URL=https://$url_viewer ## URL Viewer
       - NEXTAUTH_URL_INTERNAL=http://localhost:3000
 
-      ## Desativer/ativar novos cadastros
+    ## 🚫 Desativar/ativar novos cadastros
       - DISABLE_SIGNUP=false
 
-      ## Dados do SMTP
+    ## 📧 Dados do SMTP
       - ADMIN_EMAIL=$email_typebot ## Email SMTP
       - NEXT_PUBLIC_SMTP_FROM='Suporte' <$email_typebot>
       - SMTP_AUTH_DISABLED=false
@@ -7806,18 +7937,20 @@ services:
       - SMTP_PORT=$porta_smtp_typebot
       - SMTP_SECURE=$smtp_secure_typebot
 
-      ## Dados Google Cloud
+    ## ☁️ Dados Google Cloud
       #- GOOGLE_AUTH_CLIENT_ID=
       #- GOOGLE_SHEETS_CLIENT_ID=
       #- GOOGLE_AUTH_CLIENT_SECRET=
       #- GOOGLE_SHEETS_CLIENT_SECRET=
       #- NEXT_PUBLIC_GOOGLE_SHEETS_API_KEY=
 
-      ## Dados do Minio/S3
+    ## 🗃️ Dados do Minio/S3
       - S3_ACCESS_KEY=$S3_ACCESS_KEY
       - S3_SECRET_KEY=$S3_SECRET_KEY
       - S3_BUCKET=typebot${1:+-$1}
       - S3_ENDPOINT=$url_s3
+      - S3_REGION=eu-south
+      - NEXT_PUBLIC_BOT_FILE_UPLOAD_MAX_SIZE=250
 
     deploy:
       mode: replicated
@@ -7839,7 +7972,8 @@ services:
         - traefik.http.services.typebot${1:+_$1}_viewer.loadbalancer.passHostHeader=true
         - traefik.http.routers.typebot${1:+_$1}_viewer.service=typebot${1:+_$1}_viewer
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 networks:
   $nome_rede_interna: ## Nome da rede interna
     external: true
@@ -8061,7 +8195,7 @@ while true; do
 done
 
 ## Mensagem de Passo
-echo -e "\e[97m• INICIANDO A INSTALAÇÃO DO N8N \e[33m[1/5]\e[0m"
+echo -e "\e[97m• INICIANDO A INSTALAÇÃO DO N8N \e[33m[1/4]\e[0m"
 echo ""
 sleep 1
 
@@ -8070,7 +8204,7 @@ telemetria N8N iniciado
 ## NADA
 
 ## Mensagem de Passo
-echo -e "\e[97m• VERIFICANDO/INSTALANDO POSTGRES \e[33m[2/5]\e[0m"
+echo -e "\e[97m• VERIFICANDO/INSTALANDO POSTGRES \e[33m[2/4]\e[0m"
 echo ""
 sleep 1
 
@@ -8090,21 +8224,7 @@ else
 fi
 
 ## Mensagem de Passo
-echo -e "\e[97m• VERIFICANDO/INSTALANDO REDIS \e[33m[3/5]\e[0m"
-echo ""
-sleep 1
-
-## Verifica/instala o Redis
-verificar_container_redis
-if [ $? -eq 0 ]; then
-    echo "1/1 - [ OK ] - Redis já instalado"
-    echo ""
-else
-    ferramenta_redis
-fi
-
-## Mensagem de Passo
-echo -e "\e[97m• INSTALANDO N8N \e[33m[4/5]\e[0m"
+echo -e "\e[97m• INSTALANDO N8N \e[33m[3/4]\e[0m"
 echo ""
 sleep 1
 
@@ -8116,7 +8236,8 @@ cat > n8n${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   n8n${1:+_$1}_editor:
     image: n8nio/n8n:latest ## Versão do N8N
     command: start
@@ -8125,7 +8246,8 @@ services:
       - $nome_rede_interna ## Nome da rede interna
 
     environment:
-      ## 🗄️ Banco de Dados (PostgreSQL)
+    ## 🗄️ Banco de Dados (PostgreSQL)
+      - N8N_FIX_MIGRATIONS=true 
       - DB_TYPE=postgresdb
       - DB_POSTGRESDB_DATABASE=n8n_queue${1:+_$1}
       - DB_POSTGRESDB_HOST=postgres
@@ -8133,16 +8255,17 @@ services:
       - DB_POSTGRESDB_USER=postgres
       - DB_POSTGRESDB_PASSWORD=$senha_postgres
 
-      ## 🔐 Criptografia
+    ## 🔐 Criptografia
       - N8N_ENCRYPTION_KEY=$encryption_key
 
-      ## 🌐 URLs e Configurações de Acesso
+    ## 🌐 URLs e Configurações de Acesso
       - N8N_HOST=$url_editorn8n
       - N8N_EDITOR_BASE_URL=https://$url_editorn8n/
       - WEBHOOK_URL=https://$url_webhookn8n/
       - N8N_PROTOCOL=https
+      - N8N_ONBOARDING_FLOW_DISABLED=true
 
-      ## ⚙️ Ambiente de Execução
+    ## ⚙️ Ambiente de Execução
       - NODE_ENV=production
       - EXECUTIONS_MODE=queue
       - EXECUTIONS_TIMEOUT=3600
@@ -8150,14 +8273,15 @@ services:
       - OFFLOAD_MANUAL_EXECUTIONS_TO_WORKERS=true
       - N8N_RUNNERS_ENABLED=true
       - N8N_RUNNERS_MODE=internal
+      - N8N_RUNNERS_MAX_CONCURRENCY=5
 
-      ## 📦 Pacotes e Nós Comunitários
+    ## 📦 Pacotes e Nós Comunitários
       - N8N_REINSTALL_MISSING_PACKAGES=true
       - N8N_COMMUNITY_PACKAGES_ENABLED=true
       - N8N_NODE_PATH=/home/node/.n8n/nodes
       - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
 
-      ## 📧 SMTP (Envio de E-mails)
+    ## 📧 SMTP (Envio de E-mails)
       - N8N_SMTP_SENDER=$email_smtp_n8n
       - N8N_SMTP_USER=$usuario_smtp_n8n
       - N8N_SMTP_PASS=$senha_smtp_n8n
@@ -8165,30 +8289,31 @@ services:
       - N8N_SMTP_PORT=$porta_smtp_n8n
       - N8N_SMTP_SSL=$smtp_secure_smtp_n8n
 
-      ## 🔁 Redis (Fila de Execução)
-      - QUEUE_BULL_REDIS_HOST=redis
+    ## 🔁 Redis (Fila de Execução)
+      - QUEUE_BULL_REDIS_HOST=n8n${1:+_$1}_redis
       - QUEUE_BULL_REDIS_PORT=6379
-      - QUEUE_BULL_REDIS_DB=2
+      - QUEUE_BULL_REDIS_DB=1
 
-      ## 📊 Métricas
+    ## 📊 Métricas
       - N8N_METRICS=true
 
-      ## ⏱️ Execuções e Limpeza
+    ## ⏱️ Execuções e Limpeza
       - EXECUTIONS_DATA_PRUNE=true
       - EXECUTIONS_DATA_MAX_AGE=336
 
-      ## 🧠 Recursos de IA
+    ## 🧠 Recursos de IA
       - N8N_AI_ENABLED=false
       - N8N_AI_PROVIDER=openai
       - N8N_AI_OPENAI_API_KEY=
 
-      ## 🧰 Permissões em Funções Personalizadas
+    ## 🧰 Permissões em Funções Personalizadas
       - NODE_FUNCTION_ALLOW_BUILTIN=*
       - NODE_FUNCTION_ALLOW_EXTERNAL=moment,lodash
 
-      ## 🕒 Fuso Horário
+    ## 🕒 Fuso Horário
       - GENERIC_TIMEZONE=America/Sao_Paulo
       - TZ=America/Sao_Paulo
+      - N8N_DEFAULT_LOCALE=pt-BR
 
     deploy:
       mode: replicated
@@ -8210,7 +8335,8 @@ services:
         - traefik.http.services.n8n${1:+_$1}_editor.loadbalancer.server.port=5678
         - traefik.http.services.n8n${1:+_$1}_editor.loadbalancer.passHostHeader=1
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   n8n${1:+_$1}_webhook:
     image: n8nio/n8n:latest ## Versão do N8N
     command: webhook
@@ -8220,6 +8346,7 @@ services:
 
     environment:
       ## 🗄️ Banco de Dados (PostgreSQL)
+      - N8N_FIX_MIGRATIONS=true 
       - DB_TYPE=postgresdb
       - DB_POSTGRESDB_DATABASE=n8n_queue${1:+_$1}
       - DB_POSTGRESDB_HOST=postgres
@@ -8235,6 +8362,7 @@ services:
       - N8N_EDITOR_BASE_URL=https://$url_editorn8n/
       - WEBHOOK_URL=https://$url_webhookn8n/
       - N8N_PROTOCOL=https
+      - N8N_ONBOARDING_FLOW_DISABLED=true
 
       ## ⚙️ Ambiente de Execução
       - NODE_ENV=production
@@ -8260,9 +8388,9 @@ services:
       - N8N_SMTP_SSL=$smtp_secure_smtp_n8n
 
       ## 🔁 Redis (Fila de Execução)
-      - QUEUE_BULL_REDIS_HOST=redis
+      - QUEUE_BULL_REDIS_HOST=n8n${1:+_$1}_redis
       - QUEUE_BULL_REDIS_PORT=6379
-      - QUEUE_BULL_REDIS_DB=2
+      - QUEUE_BULL_REDIS_DB=1
 
       ## 📊 Métricas
       - N8N_METRICS=true
@@ -8283,6 +8411,7 @@ services:
       ## 🕒 Fuso Horário
       - GENERIC_TIMEZONE=America/Sao_Paulo
       - TZ=America/Sao_Paulo
+      - N8N_DEFAULT_LOCALE=pt-BR
       
     deploy:
       mode: replicated
@@ -8304,7 +8433,8 @@ services:
         - traefik.http.services.n8n${1:+_$1}_webhook.loadbalancer.server.port=5678
         - traefik.http.services.n8n${1:+_$1}_webhook.loadbalancer.passHostHeader=1
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   n8n${1:+_$1}_worker:
     image: n8nio/n8n:latest ## Versão do N8N
     command: worker --concurrency=10
@@ -8314,6 +8444,7 @@ services:
 
     environment:
       ## 🗄️ Banco de Dados (PostgreSQL)
+      - N8N_FIX_MIGRATIONS=true 
       - DB_TYPE=postgresdb
       - DB_POSTGRESDB_DATABASE=n8n_queue${1:+_$1}
       - DB_POSTGRESDB_HOST=postgres
@@ -8329,6 +8460,7 @@ services:
       - N8N_EDITOR_BASE_URL=https://$url_editorn8n/
       - WEBHOOK_URL=https://$url_webhookn8n/
       - N8N_PROTOCOL=https
+      - N8N_ONBOARDING_FLOW_DISABLED=true
 
       ## ⚙️ Ambiente de Execução
       - NODE_ENV=production
@@ -8354,9 +8486,9 @@ services:
       - N8N_SMTP_SSL=$smtp_secure_smtp_n8n
 
       ## 🔁 Redis (Fila de Execução)
-      - QUEUE_BULL_REDIS_HOST=redis
+      - QUEUE_BULL_REDIS_HOST=n8n${1:+_$1}_redis
       - QUEUE_BULL_REDIS_PORT=6379
-      - QUEUE_BULL_REDIS_DB=2
+      - QUEUE_BULL_REDIS_DB=1
 
       ## 📊 Métricas
       - N8N_METRICS=true
@@ -8377,6 +8509,7 @@ services:
       ## 🕒 Fuso Horário
       - GENERIC_TIMEZONE=America/Sao_Paulo
       - TZ=America/Sao_Paulo
+      - N8N_DEFAULT_LOCALE=pt-BR
       
     deploy:
       mode: replicated
@@ -8389,7 +8522,44 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
+  n8n${1:+_$1}_redis:
+    image: redis:latest  ## Versão do Redis
+    command: [
+        "redis-server",
+        "--appendonly",
+        "yes",
+        "--port",
+        "6379"
+      ]
+
+    volumes:
+      - n8n${1:+_$1}_redis:/data
+
+    networks:
+      - $nome_rede_interna ## Nome da rede interna
+
+    ## Descomente as linhas abaixo para uso externo
+    #ports:
+    #  - 6379:6379
+
+    deploy:
+      placement:
+        constraints:
+          - node.role == manager
+      resources:
+        limits:
+          cpus: "1"
+          memory: 1024M
+
+## --------------------------- ORION --------------------------- ##
+
+volumes:
+  n8n${1:+_$1}_redis:
+    external: true
+    name: n8n${1:+_$1}_redis
+
 networks:
   $nome_rede_interna: ## Nome da rede interna
     external: true
@@ -8412,15 +8582,15 @@ stack_editavel # > /dev/null 2>&1
 #fi
 
 ## Mensagem de Passo
-echo -e "\e[97m• VERIFICANDO SERVIÇO \e[33m[5/5]\e[0m"
+echo -e "\e[97m• VERIFICANDO SERVIÇO \e[33m[4/4]\e[0m"
 echo ""
 sleep 1
 
 ## Baixando imagens:
-pull n8nio/n8n:latest
+pull redis:latest n8nio/n8n:latest
 
 ## Usa o serviço wait_n8n para verificar se o serviço esta online
-wait_stack n8n${1:+_$1}_n8n${1:+_$1}_editor n8n${1:+_$1}_n8n${1:+_$1}_webhook n8n${1:+_$1}_n8n${1:+_$1}_worker
+wait_stack n8n${1:+_$1}_n8n${1:+_$1}_redis n8n${1:+_$1}_n8n${1:+_$1}_editor n8n${1:+_$1}_n8n${1:+_$1}_webhook n8n${1:+_$1}_n8n${1:+_$1}_worker
 
 telemetria N8N finalizado
 
@@ -8610,7 +8780,8 @@ cat > flowise${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   flowise${1:+_$1}:
     image: flowiseai/flowise:latest ## Versão do Flowise
 
@@ -8658,7 +8829,8 @@ services:
         - traefik.http.routers.flowise${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.flowise${1:+_$1}.tls.certresolver=letsencryptresolver
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   flowise${1:+_$1}_data:
     external: true
@@ -8852,7 +9024,8 @@ cat > pgadmin${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:  
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   pgadmin${1:+_$1}:
     image: dpage/pgadmin4:latest ## Versão do PgAdmin 4
 
@@ -8886,7 +9059,8 @@ services:
         - traefik.http.routers.pgadmin${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.pgadmin${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   pgadmin${1:+_$1}_data:
     external: true
@@ -9115,7 +9289,8 @@ cat > nocobase${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   nocobase${1:+_$1}:
     image: nocobase/nocobase:latest ## Versão do Nocobase
 
@@ -9166,7 +9341,8 @@ services:
         - traefik.http.routers.nocobase${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.nocobase${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   nocobase${1:+_$1}_storage:
     external: true
@@ -9378,7 +9554,8 @@ cat > botpress${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   botpress${1:+_$1}:
     image: botpress/server:latest
 
@@ -9420,7 +9597,8 @@ services:
         - traefik.http.routers.botpress${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.botpress${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   botpress${1:+_$1}_data:
     external: true
@@ -9647,7 +9825,8 @@ cat > wordpress_$nome_site_wordpress.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   wordpress_$nome_site_wordpress:
     image: wordpress:latest ## Versão do Wordpress
 
@@ -9692,7 +9871,8 @@ services:
         - traefik.http.services.wordpress_$nome_site_wordpress.loadbalancer.server.port=80
         - traefik.http.services.wordpress_$nome_site_wordpress.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   wordpress_$nome_site_wordpress:
     external: true
@@ -10033,7 +10213,8 @@ cat > baserow${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   baserow${1:+_$1}:
     image: baserow/baserow:latest ## Versão do Baserow
 
@@ -10084,7 +10265,8 @@ services:
         - traefik.http.routers.baserow${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.baserow${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   baserow${1:+_$1}_data:
     external: true
@@ -10268,7 +10450,8 @@ cat > mongodb${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   mongodb${1:+_$1}:
     image: mongo:latest
     command: mongod --port 27017
@@ -10301,7 +10484,8 @@ services:
           cpus: '1'
           memory: 2048M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   mongodb${1:+_$1}_data:
     external: true
@@ -10504,7 +10688,8 @@ cat > rabbitmq${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   rabbitmq${1:+_$1}:
     image: rabbitmq:management
     command: rabbitmq-server
@@ -10545,7 +10730,8 @@ services:
         - traefik.http.routers.rabbitmq${1:+_$1}.service=rabbitmq${1:+_$1}
         - traefik.http.services.rabbitmq${1:+_$1}.loadbalancer.server.port=15672
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   rabbitmq${1:+_$1}_data:
     external: true
@@ -10725,7 +10911,8 @@ cat > uptimekuma${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   uptimekuma${1:+_$1}:
     image: louislam/uptime-kuma:latest
 
@@ -10753,7 +10940,8 @@ services:
         - traefik.http.services.uptimekuma${1:+_$1}.loadBalancer.server.port=3001
         - traefik.http.routers.uptimekuma${1:+_$1}.service=uptimekuma${1:+_$1}
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   uptimekuma${1:+_$1}:
     external: true
@@ -11001,7 +11189,8 @@ cat > calcom${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   calcom${1:+_$1}:
     image: calcom/cal.com:v4.7.8
 
@@ -11077,7 +11266,8 @@ services:
         - traefik.http.services.calcom${1:+_$1}_app.loadbalancer.server.port=3000
         - traefik.http.services.calcom${1:+_$1}_app.loadbalancer.passHostHeader=1
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 networks:
   $nome_rede_interna:
     name: $nome_rede_interna
@@ -11300,7 +11490,8 @@ cat > mautic${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   mautic_web${1:+_$1}:
     image: mautic/mautic:latest ## Versão do Mautic
 
@@ -11354,7 +11545,8 @@ services:
         - traefik.http.routers.mautic${1:+_$1}.tls.certresolver=letsencryptresolver
         - traefik.http.services.mautic${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   mautic_worker${1:+_$1}:
     image: mautic/mautic:latest ## Versão do Mautic
 
@@ -11400,7 +11592,8 @@ services:
           cpus: "2"
           memory: 2048M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   mautic_cron${1:+_$1}:
     image: mautic/mautic:latest ## Versão do Mautic
 
@@ -11446,7 +11639,8 @@ services:
           cpus: "0.5"
           memory: 512M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   mautic${1:+_$1}_config:
     external: true
@@ -11648,7 +11842,8 @@ cat > appsmith${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   appsmith${1:+_$1}:
     image: appsmith/appsmith-ee:latest
 
@@ -11684,7 +11879,8 @@ services:
         - traefik.http.services.appsmith${1:+_$1}.loadbalancer.server.port=80
         - traefik.http.services.appsmith${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   appsmith${1:+_$1}_data:
     external: true
@@ -11878,7 +12074,8 @@ for ((i=0; i< $nodes_qdrant; i++)); do
 
   cat <<EOL >> qdrant.yaml
 
-  ## --------------------------- HOSTFY --------------------------- ##
+  ## --------------------------- ORION --------------------------- ##
+
   $node_name:
     image: qdrant/qdrant:latest ## Versão do Qdrant
 
@@ -11915,7 +12112,8 @@ EOL
 done
 
 cat <<EOL >> qdrant.yaml
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
 EOL
 
@@ -12158,7 +12356,8 @@ cat > woofedcrm${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   woofedcrm${1:+_$1}_web:
     image: douglara/woofedcrm:latest
     command: bundle exec rails s -p 3000 -b 0.0.0.0
@@ -12231,7 +12430,8 @@ services:
         - traefik.http.middlewares.sslheader.headers.customrequestheaders.X-Forwarded-Proto=https
         - traefik.http.routers.woofedcrm${1:+_$1}.middlewares=sslheader
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   woofedcrm${1:+_$1}_sidekiq:
     image: douglara/woofedcrm:latest
     command: bundle exec sidekiq -C config/sidekiq.yml
@@ -12293,7 +12493,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   woofedcrm${1:+_$1}_job:
     image: douglara/woofedcrm:latest
     command: bundle exec good_job
@@ -12355,7 +12556,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   woofedcrm${1:+_$1}_data:
     external: true
@@ -12677,9 +12879,10 @@ cat > formbricks${1:+_$1}.yaml <<-EOF
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   formbricks${1:+_$1}:
-    image: formbricks/formbricks:latest
+    image: ghcr.io/formbricks/formbricks:latest
 
     volumes:
       - formbricks${1:+_$1}_data:/home/nextjs/apps/web/uploads/
@@ -12769,7 +12972,8 @@ services:
         - traefik.http.routers.formbricks${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.formbricks${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   formbricks${1:+_$1}_data:
     external: true
@@ -12802,7 +13006,7 @@ echo ""
 sleep 1
 
 ## Baixando imagens:
-pull formbricks/formbricks:latest
+pull ghcr.io/formbricks/formbricks:latest
 
 ## Usa o serviço wait_stack "formbricks" para verificar se o serviço esta online
 wait_stack formbricks${1:+_$1}_formbricks${1:+_$1}
@@ -12969,7 +13173,8 @@ cat > nocodb${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   nocodb${1:+_$1}: 
     image: nocodb/nocodb:latest
 
@@ -13008,7 +13213,8 @@ services:
         - traefik.http.routers.nocodb${1:+_$1}.tls.certresolver=letsencryptresolver
         - com.centurylinklabs.watchtower.enable=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   nocodb${1:+_$1}_data:
     external: true
@@ -13262,7 +13468,8 @@ cat > langfuse${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   langfuse${1:+_$1}_app:
     image: langfuse/langfuse:latest
 
@@ -13341,7 +13548,8 @@ services:
         - traefik.http.services.langfuse${1:+_$1}.loadbalancer.passHostHeader=true
         - traefik.http.services.langfuse${1:+_$1}.loadbalancer.server.port=3000
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   langfuse${1:+_$1}_worker:
     image: langfuse/langfuse-worker:latest
 
@@ -13412,7 +13620,8 @@ services:
             cpus: '1'
             memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   langfuse${1:+_$1}_redis:
     image: redis:latest  ## Versão do Redis
     command: [
@@ -13442,7 +13651,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
    langfuse${1:+_$1}_redis:
     external: true
@@ -13646,7 +13856,8 @@ cat > metabase${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   metabase${1:+_$1}:
     image: metabase/metabase:latest
 
@@ -13688,7 +13899,8 @@ services:
         - traefik.http.routers.metabase${1:+_$1}.tls=true
         - traefik.http.routers.metabase${1:+_$1}.tls.certresolver=letsencryptresolver
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   metabase${1:+_$1}_data:
     external: true
@@ -13870,7 +14082,8 @@ cat > odoo${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   odoo${1:+_$1}_app:
     image: odoo:18.0
 
@@ -13901,7 +14114,8 @@ services:
         - traefik.http.routers.odoo${1:+_$1}_app.tls.certresolver=letsencryptresolver
         - traefik.http.services.odoo${1:+_$1}_app.loadbalancer.server.port=8069
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   odoo${1:+_$1}_db:
     image: postgres:15
 
@@ -13924,7 +14138,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   odoo${1:+_$1}_app_data:
     external: true
@@ -14237,7 +14452,8 @@ cat > chatwoot_nestor${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
    chatwoot_nestor${1:+_$1}_app:
     image: sendingtk/chatwoot:latest ## Versão do Chatwoot Nestor
     command: bundle exec rails s -p 3000 -b 0.0.0.0
@@ -14344,7 +14560,8 @@ services:
         - traefik.http.middlewares.sslheader.headers.customrequestheaders.X-Forwarded-Proto=https
         - traefik.http.routers.chatwoot_nestor${1:+_$1}_app.middlewares=sslheader
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
    chatwoot_nestor${1:+_$1}_sidekiq:
     image: sendingtk/chatwoot:latest ## Versão do Chatwoot Nestor
     command: bundle exec sidekiq -C config/sidekiq.yml
@@ -14439,7 +14656,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   chatwoot_nestor${1:+_$1}_storage:
     external: true
@@ -14798,7 +15016,8 @@ cat > unoapi${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   unoapi${1:+_$1}:
     image: clairton/unoapi-cloud:latest
     entrypoint: yarn cloud
@@ -14869,7 +15088,8 @@ services:
         - traefik.http.services.unoapi${1:+_$1}.loadbalancer.passHostHeader=true
         - traefik.http.routers.unoapi${1:+_$1}.service=unoapi${1:+_$1}
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   unoapi${1:+_$1}_data:
     external: true
@@ -15150,7 +15370,8 @@ cat > n8n_quepasa${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   n8n_quepasa${1:+_$1}_editor:
     image: deividms/n8n-quepasa:latest ## Versão do N8N
     command: start
@@ -15263,7 +15484,8 @@ services:
         - traefik.http.services.n8n_quepasa${1:+_$1}_editor.loadbalancer.server.port=5678
         - traefik.http.services.n8n_quepasa${1:+_$1}_editor.loadbalancer.passHostHeader=1
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   n8n_quepasa${1:+_$1}_webhook:
     image: deividms/n8n-quepasa:latest ## Versão do N8N
     command: webhook
@@ -15376,7 +15598,8 @@ services:
         - traefik.http.services.n8n_quepasa${1:+_$1}_webhook.loadbalancer.server.port=5678
         - traefik.http.services.n8n_quepasa${1:+_$1}_webhook.loadbalancer.passHostHeader=1
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   n8n_quepasa${1:+_$1}_worker:
     image: deividms/n8n-quepasa:latest ## Versão do N8N
     command: worker --concurrency=10
@@ -15480,7 +15703,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 
 networks:
   $nome_rede_interna:
@@ -15690,7 +15914,8 @@ cat > quepasa${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   quepasa${1:+_$1}:
     image: deividms/quepasa:latest ## Imagem/versão do Quepasa
       
@@ -15796,7 +16021,8 @@ services:
         - traefik.http.services.quepasa${1:+_$1}.loadbalancer.server.port=31000
         - traefik.http.services.quepasa${1:+_$1}.loadbalancer.passHostHeader=true              
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   quepasa${1:+_$1}_volume:
     external: true
@@ -16057,7 +16283,8 @@ cat > docuseal${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   docuseal${1:+_$1}:
     image: docuseal/docuseal:latest
 
@@ -16107,7 +16334,8 @@ services:
         - traefik.http.routers.docuseal${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.docuseal${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   docuseal${1:+_$1}_data:
     external: true
@@ -16427,7 +16655,8 @@ cat > monitor.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   prometheus:
     image: prom/prometheus:latest
 
@@ -16456,7 +16685,8 @@ services:
         - traefik.http.routers.prometheus.service=prometheus
         - traefik.http.services.prometheus.loadbalancer.server.port=9090
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   grafana:
     image: grafana/grafana:latest
 
@@ -16490,7 +16720,8 @@ services:
         - traefik.http.routers.grafana.service=grafana
         - traefik.http.services.grafana.loadbalancer.server.port=3000
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   node-exporter:
     image: prom/node-exporter:latest
     restart: unless-stopped
@@ -16517,7 +16748,8 @@ services:
         - traefik.http.routers.node-exporter.service=node-exporter
         - traefik.http.services.node-exporter.loadbalancer.server.port=9100
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   cadvisor:
     image: gcr.io/cadvisor/cadvisor
     restart: unless-stopped
@@ -16551,7 +16783,8 @@ services:
         - traefik.http.routers.cadvisor.service=cadvisor
         - traefik.http.services.cadvisor.loadbalancer.server.port=8080
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 networks:
   $nome_rede_interna:
     name: $nome_rede_interna
@@ -16875,7 +17108,8 @@ cat > dify${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   dify${1:+_$1}_api:
     image: langgenius/dify-api:latest
 
@@ -17073,7 +17307,8 @@ services:
         - traefik.http.middlewares.corsMiddleware.headers.accessControlAllowMethods=GET,POST,PUT,DELETE,OPTIONS
         - traefik.http.middlewares.corsMiddleware.headers.accessControlAllowHeaders=Content-Type,Authorization
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   dify${1:+_$1}_worker:
     image: langgenius/dify-api:latest
 
@@ -17257,7 +17492,8 @@ services:
           cpus: "2"
           memory: 4096M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   dify${1:+_$1}_web:
     image: langgenius/dify-web:latest
 
@@ -17313,7 +17549,8 @@ services:
         - traefik.http.middlewares.corsMiddleware.headers.accessControlAllowMethods=GET,POST,PUT,DELETE,OPTIONS
         - traefik.http.middlewares.corsMiddleware.headers.accessControlAllowHeaders=Content-Type,Authorization
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   dify${1:+_$1}_sandbox:
     image: langgenius/dify-sandbox:0.2.11
 
@@ -17341,7 +17578,8 @@ services:
           cpus: "2"
           memory: 4096M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   dify${1:+_$1}_weaviate:
     image: semitechnologies/weaviate:1.19.0
 
@@ -17388,7 +17626,8 @@ services:
           cpus: "2"
           memory: 4096M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   dify${1:+_$1}_plugin_daemon:
     image: langgenius/dify-plugin-daemon:latest-local
 
@@ -17444,7 +17683,8 @@ services:
           cpus: "2"
           memory: 4096M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   dify${1:+_$1}_storage:
     external: true
@@ -17639,7 +17879,8 @@ cat > ollama${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   ollama${1:+_$1}:
     image: ollama/ollama:latest
 
@@ -17671,7 +17912,8 @@ services:
         - traefik.http.services.ollama${1:+_$1}.loadbalancer.server.port=11434
         - traefik.http.services.ollama${1:+_$1}.loadbalancer.passHostHeader=1
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   openwebui${1:+_$1}:
     image: ghcr.io/open-webui/open-webui:main
 
@@ -17704,7 +17946,8 @@ services:
         - traefik.http.services.openwebui${1:+_$1}.loadbalancer.server.port=8080
         - traefik.http.services.openwebui${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   ollama${1:+_$1}_data:
     external: true
@@ -17744,6 +17987,8 @@ pull ollama/ollama:latest ghcr.io/open-webui/open-webui:main
 
 ## Usa o serviço wait_nocodb para verificar se o serviço esta online
 wait_stack ollama${1:+_$1}_openwebui${1:+_$1} ollama${1:+_$1}_ollama${1:+_$1}
+
+telemetria Ollama finalizado
 
 cd dados_vps
 
@@ -17972,7 +18217,8 @@ cat > affine${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   affine${1:+_$1}:
     image: ghcr.io/toeverything/affine-graphql:stable-39476d1
     command:
@@ -18037,7 +18283,8 @@ services:
         - traefik.frontend.headers.STSPreload=true
         - traefik.frontend.headers.STSSeconds=31536000
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   affine${1:+_$1}_config:
     external: true
@@ -18331,7 +18578,8 @@ cat > directus${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   directus${1:+_$1}:
     image: directus/directus:latest
 
@@ -18395,7 +18643,8 @@ services:
         - traefik.http.routers.directus${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.directus${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   directus${1:+_$1}_uploads:
     external: true
@@ -18621,7 +18870,8 @@ cat > vaultwarden${1:+_$1}.yaml <<-EOF
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   vaultwarden${1:+_$1}:
     image: vaultwarden/server:latest
 
@@ -18671,7 +18921,8 @@ services:
         - "traefik.http.middlewares.compresstraefik.compress=true"
         - "traefik.docker.network=$nome_rede_interna"
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   vaultwarden${1:+_$1}_data:
     external: true
@@ -18907,7 +19158,8 @@ cat > nextcloud${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   nextcloud${1:+_$1}:
     image: nextcloud:latest
 
@@ -18957,7 +19209,8 @@ services:
         - traefik.http.middlewares.nextcloud${1:+_$1}_redirectregex.redirectregex.regex=https://(.*)/.well-known/(?:card|cal)dav
         - traefik.http.middlewares.nextcloud${1:+_$1}_redirectregex.redirectregex.replacement=https://$$1/remote.php/dav
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   nextcloud${1:+_$1}_cron:
     image: nextcloud:latest
     entrypoint: /cron.sh
@@ -18972,7 +19225,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   nextcloud${1:+_$1}_data:
     external: true
@@ -19172,7 +19426,8 @@ cat > strapi${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   strapi${1:+_$1}_app:
     image: strapi/strapi
 
@@ -19218,7 +19473,8 @@ services:
         - traefik.http.services.strapi${1:+_$1}.loadbalancer.server.port=1337
         - traefik.http.services.strapi${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   strapi${1:+_$1}_db:
     image: percona/percona-server:8.0
     command:
@@ -19250,7 +19506,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   #strapi${1:+_$1}_config:
   #  external: true
@@ -19478,7 +19735,8 @@ cat > phpmyadmin${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   phpmyadmin${1:+_$1}:
     image: phpmyadmin/phpmyadmin:latest
     command: ["apache2-foreground"]
@@ -19517,7 +19775,8 @@ services:
         - traefik.http.services.phpmyadmin${1:+_$1}.loadbalancer.server.port=80
         - traefik.http.routers.phpmyadmin${1:+_$1}.service=phpmyadmin${1:+_$1}
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 networks:
   $nome_rede_interna:
     external: true
@@ -20222,7 +20481,8 @@ cat > supabase${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   studio${1:+_$1}:
     image: supabase/studio:2025.06.30-sha-6f5982d ## Versão do Supabase Studio
 
@@ -20270,7 +20530,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   kong${1:+_$1}:
     image: kong:2.8.1 ## Versão do Supabase Kong
     entrypoint: bash -c 'eval "echo \"\$\$(cat ~/temp.yml)\"" > ~/kong.yml && /docker-entrypoint.sh kong docker-start'
@@ -20320,7 +20581,8 @@ services:
         - traefik.http.routers.kong${1:+_$1}.tls.certresolver=letsencryptresolver
         - traefik.http.routers.kong${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   auth${1:+_$1}:
     image: supabase/gotrue:v2.176.1 ## Versão do Supabase Auth
     
@@ -20377,7 +20639,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   rest${1:+_$1}:
     image: postgrest/postgrest:v12.2.12 ## Versão do Supabase Rest
     command: "postgrest"
@@ -20406,7 +20669,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   realtime${1:+_$1}:
     image: supabase/realtime:v2.34.47 ## Versão do Supabase Realtime
 
@@ -20445,7 +20709,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   storage${1:+_$1}:
     image: supabase/storage-api:v1.22.17 ## Versão do Supabase Storage
 
@@ -20490,7 +20755,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   imgproxy${1:+_$1}:
     image: darthsim/imgproxy:v3.8.0 ## Versão do Supabase Imgproxy
   
@@ -20514,7 +20780,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   meta${1:+_$1}:
     image: supabase/postgres-meta:v0.89.3 ## Versão do Meta 
 
@@ -20537,7 +20804,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   functions${1:+_$1}:
     image: supabase/edge-runtime:v1.67.4 ## Versão do Supabase Functions
     command:
@@ -20567,7 +20835,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   analytics${1:+_$1}:
     image: supabase/logflare:1.14.2 ## Versão do Supabase Analytics
 
@@ -20604,7 +20873,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   db${1:+_$1}:
     image: supabase/postgres:15.8.1.060 ## Versão do Supabase Db
     command:
@@ -20649,7 +20919,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   vector${1:+_$1}:
     image: timberio/vector:0.28.1-alpine ## Versão do Supabase Vector
     command:
@@ -20675,7 +20946,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   supavisor${1:+_$1}:
     image: supabase/supavisor:2.5.1 ## Versão do Supabase Supavisor
     command:
@@ -20731,7 +21003,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   supabase${1:+_$1}_db_config:
     external: true
@@ -20947,7 +21220,8 @@ cat > ntfy${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   ntfy${1:+_$1}:
     image: binwiederhier/ntfy:latest
     command:
@@ -20984,7 +21258,8 @@ services:
         - traefik.http.routers.ntfy${1:+_$1}.middlewares=ntfy${1:+_$1}-auth
         - traefik.http.routers.ntfy${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   ntfy${1:+_$1}_cache:
     external: true
@@ -21268,7 +21543,8 @@ cat > lowcoder${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   lowcoder${1:+_$1}_api:
     image: lowcoderorg/lowcoder-ce-api-service:latest
 
@@ -21330,7 +21606,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   lowcoder${1:+_$1}_node:
     image: lowcoderorg/lowcoder-ce-node-service:latest
 
@@ -21353,7 +21630,8 @@ services:
           cpus: "0.5"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   lowcoder${1:+_$1}_frontend:
     image: lowcoderorg/lowcoder-ce-frontend:latest
 
@@ -21386,7 +21664,8 @@ services:
         - traefik.http.routers.lowcoder${1:+_$1}.tls.certresolver=letsencryptresolver
         - traefik.http.routers.lowcoder${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   lowcoder${1:+_$1}_assets:
     external: true
@@ -21619,7 +21898,8 @@ cat > langflow${1:+_$1}.yaml <<EOL
 version: "3.8"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   langflow${1:+_$1}:
     image: langflowai/langflow:1.1.3
 
@@ -21665,7 +21945,8 @@ services:
         - traefik.http.routers.langflow${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.langflow${1:+_$1}.tls.certresolver=letsencryptresolver
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   langflow${1:+_$1}_data:
     external: true
@@ -21879,7 +22160,8 @@ cat > openproject${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   openproject${1:+_$1}:
     image: openproject/openproject:15
 
@@ -21937,7 +22219,8 @@ services:
         - traefik.http.services.openproject${1:+_$1}.loadbalancer.server.port=8080
         - traefik.http.services.openproject${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   openproject${1:+_$1}_pgdata:
     external: true
@@ -22178,7 +22461,8 @@ cat > zep${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   zep${1:+_$1}_nlp:
     image: ghcr.io/getzep/zep-nlp-server:latest
 
@@ -22192,7 +22476,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   zep${1:+_$1}_app:
     image: ghcr.io/getzep/zep:latest
     
@@ -22245,7 +22530,8 @@ services:
         - traefik.http.services.zep${1:+_$1}.loadbalancer.passHostHeader=true
         - traefik.http.routers.zep${1:+_$1}.service=zep${1:+_$1}
 
-## --------------------------- HOSTFY --------------------------- ##    
+## --------------------------- ORION --------------------------- ##
+    
 networks:
   $nome_rede_interna: ## Nome da rede interna
     external: true
@@ -22552,7 +22838,8 @@ cat > humhub${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   humhub${1:+_$1}:
     image: mriedmann/humhub:latest
 
@@ -22616,7 +22903,8 @@ services:
         - traefik.http.services.humhub${1:+_$1}.loadbalancer.server.port=80
         - traefik.http.services.humhub${1:+_$1}.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   humhub${1:+_$1}_data:
     external: true
@@ -22855,7 +23143,8 @@ cat > yourls${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   yourls${1:+_$1}:
     image: yourls:latest
 
@@ -22889,7 +23178,8 @@ services:
         - traefik.http.routers.yourls${1:+_$1}.service=yourls${1:+_$1}
         - traefik.http.services.yourls${1:+_$1}.loadbalancer.server.port=80
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 networks:
   $nome_rede_interna: ## Nome da rede interna
     name: $nome_rede_interna ## Nome da rede interna
@@ -23130,7 +23420,8 @@ cat > twentycrm${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   twentycrm${1:+_$1}_server:
     image: twentycrm/twenty:latest
 
@@ -23177,7 +23468,8 @@ services:
         - traefik.http.routers.twentycrm${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.twentycrm${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   twentycrm${1:+_$1}_worker:
     image: twentycrm/twenty:latest
     command: ["yarn", "worker:prod"]
@@ -23215,7 +23507,8 @@ services:
           memory: 1024M
  
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   twentycrm${1:+_$1}_db:
     image: twentycrm/twenty-postgres-spilo:latest
 
@@ -23243,7 +23536,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   twentycrm${1:+_$1}_data:
     external: true
@@ -23456,7 +23750,8 @@ cat > mattermost${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   mattermost${1:+_$1}:
     image: mattermost/mattermost-team-edition:latest
 
@@ -23499,7 +23794,8 @@ services:
         - traefik.http.middlewares.sslheader.headers.customrequestheaders.X-Forwarded-Proto=https
         - traefik.http.routers.mattermost${1:+_$1}.middlewares=sslheader
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   mattermost${1:+_$1}_data:
     external: true
@@ -23799,7 +24095,8 @@ cat > outline${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   outline${1:+_$1}_app:
     image: outlinewiki/outline:latest
 
@@ -23876,7 +24173,8 @@ services:
         - traefik.http.routers.outline${1:+_$1}_app.service=outline${1:+_$1}_app
         - traefik.http.services.outline${1:+_$1}_app.loadbalancer.server.port=3000
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   outline${1:+_$1}_uploads:
     external: true
@@ -24054,7 +24352,8 @@ cat > focalboard${1:+_$1}.yaml <<EOL
 version: "3.8"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   focalboard${1:+_$1}:
     image: mattermost/focalboard:latest
 
@@ -24086,7 +24385,8 @@ services:
         - traefik.http.routers.focalboard${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.focalboard${1:+_$1}.tls.certresolver=letsencryptresolver
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   focalboard${1:+_$1}_data:
     external: true
@@ -24284,7 +24584,8 @@ cat > glpi${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   glpi${1:+_$1}:
     image: diouxx/glpi:latest
 
@@ -24318,7 +24619,8 @@ services:
         - traefik.http.routers.glpi${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.glpi${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   glpi${1:+_$1}_glpi:
     external: true
@@ -24526,7 +24828,8 @@ cat > anythingllm${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   anythingllm${1:+_$1}:
     image: mintplexlabs/anythingllm:latest
 
@@ -24568,7 +24871,8 @@ services:
         - traefik.http.routers.anythingllm${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.anythingllm${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   anythingllm${1:+_$1}_storage:
     external: true
@@ -24753,7 +25057,8 @@ cat > excalidraw${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   excalidraw${1:+_$1}:
     image: excalidraw/excalidraw:latest
 
@@ -24786,7 +25091,8 @@ services:
         - traefik.http.routers.excalidraw${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.excalidraw${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 
 volumes:
   excalidraw${1:+_$1}_data:
@@ -25006,7 +25312,8 @@ cat > easyappointments${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   easyapointments${1:+_$1}:
     image: alextselegidis/easyappointments:latest
 
@@ -25057,7 +25364,8 @@ services:
         - traefik.http.routers.easyapointments${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.easyapointments${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   easyapointments${1:+_$1}_data:
     external: true
@@ -25339,7 +25647,8 @@ cat > documenso${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   documenso${1:+_$1}:
     image: documenso/documenso:latest
 
@@ -25413,7 +25722,8 @@ services:
         - traefik.http.routers.documenso${1:+_$1}.tls=true
     
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   documenso${1:+_$1}_cert:
     external: true
@@ -25687,7 +25997,8 @@ cat > moodle${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   moodle${1:+_$1}_app:
     image: bitnami/moodle:latest
 
@@ -25745,7 +26056,8 @@ services:
         - traefik.http.routers.moodle${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.moodle${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   moodle${1:+_$1}_mariadb:
     image: bitnami/mariadb:latest
 
@@ -25776,7 +26088,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   moodle${1:+_$1}_data:
     external: true
@@ -26065,7 +26378,8 @@ cat > tooljet${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   tooljet${1:+_$1}_app:
     image: tooljet/tooljet:ee-lts-latest
     command: npm run start:prod
@@ -26145,7 +26459,8 @@ services:
         - traefik.http.routers.tooljet${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.tooljet${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   tooljet${1:+_$1}_postgrest:
     image: postgrest/postgrest:v12.0.2
 
@@ -26171,7 +26486,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   tooljet${1:+_$1}_chroma:
     image: chromadb/chroma:latest
 
@@ -26195,7 +26511,8 @@ services:
           cpus: "1"
           memory: 1024M      
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   tooljet_chromadb${1:+_$1}:
     external: true
@@ -26398,7 +26715,8 @@ cat > stirlingpdf${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   stirlingpdf${1:+_$1}:
     image: frooodle/s-pdf:latest ## Versão da aplicação
 
@@ -26446,7 +26764,8 @@ services:
         - traefik.http.routers.stirlingpdf${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.stirlingpdf${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   stirlingpdf${1:+_$1}_data:
     external: true
@@ -26650,7 +26969,8 @@ cat > clickhouse${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   clickhouse${1:+_$1}:
     image: clickhouse/clickhouse-server:23.8.8.20-alpine
 
@@ -26686,7 +27006,8 @@ services:
         - traefik.http.routers.clickhouse${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.clickhouse${1:+_$1}.tls=true        
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   clickhouse${1:+_$1}_data:
     external: true
@@ -26874,7 +27195,8 @@ cat > redisinsight${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   redisinsight${1:+_$1}:
     image: redislabs/redisinsight:latest
 
@@ -26912,7 +27234,8 @@ services:
         - traefik.http.routers.redisinsight${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.redisinsight${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   redisinsight${1:+_$1}_data:
     external: true
@@ -27115,7 +27438,8 @@ cat > traccar${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   traccar${1:+_$1}:
     image: traccar/traccar:latest
     
@@ -27149,7 +27473,8 @@ services:
         - traefik.http.routers.traccar${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.traccar${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   traccar${1:+_$1}_db:
     image: mysql:8.0
 
@@ -27176,7 +27501,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   traccar${1:+_$1}_data:
     external: true
@@ -27379,7 +27705,8 @@ cat > firecrawl${1:+_$1}.yaml <<EOL
 version: "3.8"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   firecrawl${1:+_$1}_api:
     image: oriondesign/firecrawl-api:latest
     command: [ "pnpm", "run", "start:production" ]
@@ -27439,7 +27766,8 @@ services:
         - traefik.http.routers.firecrawl${1:+_$1}_api.entrypoints=websecure
         - traefik.http.routers.firecrawl${1:+_$1}_api.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   firecrawl${1:+_$1}_worker:
     image: oriondesign/firecrawl-api:latest
     command: [ "pnpm", "run", "workers" ]
@@ -27491,7 +27819,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   firecrawl${1:+_$1}_playwright:
     image: oriondesign/firecrawl-playwright-service:latest
 
@@ -27516,7 +27845,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 networks:
   $nome_rede_interna: ## Nome da rede interna
     name: $nome_rede_interna ## Nome da rede interna
@@ -27710,7 +28040,8 @@ cat > wuzapi${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
  wuzapi${1:+_$1}:
   image: asternic/wuzapi:latest
 
@@ -27759,7 +28090,8 @@ services:
         - traefik.http.routers.wuzapi${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.wuzapi${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   wuzapi${1:+_$1}_dbdata:
     external: true
@@ -28004,7 +28336,8 @@ cat > krayincrm${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   krayincrm${1:+_$1}_app:
     image: francisbreit/crmk:v2.0.5-fr
 
@@ -28082,7 +28415,8 @@ services:
         - traefik.http.routers.krayincrm${1:+_$1}_app.entrypoints=websecure
         - traefik.http.routers.krayincrm${1:+_$1}_app.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   krayin${1:+_$1}_db:
     image: percona/percona-server:latest
     command:
@@ -28116,7 +28450,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   krayin${1:+_$1}_redis:
     image: redis:latest
     command: >
@@ -28145,7 +28480,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   krayincrm${1:+_$1}_data:
     external: true
@@ -28491,7 +28827,8 @@ cat > planka${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   planka${1:+_$1}:
     image: ghcr.io/plankanban/planka:latest
 
@@ -28558,7 +28895,8 @@ services:
         - traefik.http.routers.planka${1:+_$1}.tls=true
 
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   planka${1:+_$1}_avatars:
     external: true
@@ -28749,7 +29087,8 @@ cat > wppconnect${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   wppconnect${1:+_$1}_api:
     image: wppconnect/server-cli:latest
 
@@ -28775,7 +29114,8 @@ services:
         - traefik.http.services.wppconnect${1:+_$1}_api.loadbalancer.server.port=21465
         - traefik.http.services.wppconnect${1:+_$1}_api.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   wppconnect${1:+_$1}_config:
     external: true
@@ -28948,7 +29288,8 @@ cat > browserless${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   browserless${1:+_$1}:
     image: browserless/chrome:latest
 
@@ -28983,7 +29324,8 @@ services:
         - traefik.http.routers.browserless${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.browserless${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 networks:
   $nome_rede_interna: ## Nome da rede interna
     name: $nome_rede_interna ## Nome da rede interna
@@ -29186,7 +29528,8 @@ cat > keycloak${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   keycloak${1:+_$1}:
     image: quay.io/keycloak/keycloak:latest
     command: start
@@ -29235,7 +29578,8 @@ services:
         - traefik.http.routers.keycloak${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.keycloak${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   keycloak${1:+_$1}_data:
     external: true
@@ -29427,7 +29771,8 @@ cat > erpnext${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   erpnext${1:+_$1}_frontend:
     image: frappe/erpnext:v15.49.3
     command: ["nginx-entrypoint.sh"]
@@ -29469,7 +29814,8 @@ services:
         - traefik.http.routers.erpnext${1:+_$1}_frontend.entrypoints=websecure
         - traefik.http.routers.erpnext${1:+_$1}_frontend.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   erpnext${1:+_$1}_backend:
     image: frappe/erpnext:v15.49.3
 
@@ -29500,7 +29846,8 @@ services:
           cpus: "2"
           memory: 4096M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   erpnext${1:+_$1}_configurator:
     image: frappe/erpnext:v15.49.3
 
@@ -29538,7 +29885,8 @@ services:
           cpus: "2"
           memory: 4096M
 
-## --------------------------- HOSTFY --------------------------- ##      
+## --------------------------- ORION --------------------------- ##
+      
   erpnext${1:+_$1}_websocket:
     image: frappe/erpnext:v15.49.3
     command: ["node", "/home/frappe/frappe-bench/apps/frappe/socketio.js"]
@@ -29561,7 +29909,8 @@ services:
           cpus: "2"
           memory: 4096M
             
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   erpnext${1:+_$1}_db:
     image: mariadb:10.6
     command: ["--character-set-server=utf8mb4", "--collation-server=utf8mb4_unicode_ci", "--skip-character-set-client-handshake", "--skip-innodb-read-only-compressed"]
@@ -29588,7 +29937,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   erpnext${1:+_$1}_cache:
     image: redis:latest
     command: [
@@ -29614,7 +29964,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   erpnext${1:+_$1}_queue:
     image: redis:latest
     command: [
@@ -29640,7 +29991,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   erpnext${1:+_$1}_socketio:
     image: redis:latest
     command: [
@@ -29666,7 +30018,8 @@ services:
           cpus: "1"
           memory: 1024M
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   erpnext${1:+_$1}_sites:
     external: true
@@ -29881,7 +30234,8 @@ cat > bolt${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   bolt${1:+_$1}:
     image: docker.io/hipnologo/bolt.diy:latest
 
@@ -29930,7 +30284,8 @@ services:
         - traefik.http.routers.bolt${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.bolt${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   bolt${1:+_$1}_data:
     external: true
@@ -30098,7 +30453,8 @@ cat > wisemapping${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   wisemapping${1:+_$1}:
     image: wisemapping/wisemapping:latest
 
@@ -30130,7 +30486,8 @@ services:
         - traefik.http.routers.wisemapping${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.wisemapping${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   wisemapping${1:+_$1}_db:
     external: true
@@ -30432,7 +30789,8 @@ cat > evoai${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   evoai${1:+_$1}_api:
     image: evoapicloud/evo-ai:latest ## Versão da imagem
 
@@ -30503,7 +30861,8 @@ services:
         - traefik.http.services.evoai${1:+_$1}_api.loadbalancer.server.port=8000
         - traefik.http.services.evoai${1:+_$1}_api.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   evoai${1:+_$1}_frontend:
     image: evoapicloud/evo-ai-frontend:latest ## Versão da imagem
     
@@ -30529,7 +30888,8 @@ services:
         - traefik.http.services.evoai${1:+_$1}_frontend.loadbalancer.server.port=3000
         - traefik.http.services.evoai${1:+_$1}_frontend.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   evoai${1:+_$1}_logs:
     external: true
@@ -30812,7 +31172,8 @@ cat > passbolt${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   passbolt${1:+_$1}:
     image: passbolt/passbolt:latest ## Versão da aplicação
 
@@ -30862,7 +31223,8 @@ services:
         - traefik.http.routers.passbolt${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.passbolt${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   passbolt${1:+_$1}_data:
     external: true
@@ -31045,7 +31407,8 @@ cat > gotenberg${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   gotenberg${1:+_$1}:
     image: gotenberg/gotenberg:latest
     command:
@@ -31080,7 +31443,8 @@ services:
         - traefik.http.routers.gotenberg${1:+_$1}.entrypoints=websecure
         - traefik.http.routers.gotenberg${1:+_$1}.tls=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   gotenberg${1:+_$1}_data:
     external: true
@@ -31249,7 +31613,8 @@ cat > wiki${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   wiki${1:+_$1}_app:
     image: requarks/wiki:latest ## Versão da aplicação
 
@@ -31280,7 +31645,8 @@ services:
         - traefik.http.services.wiki${1:+_$1}_app.loadbalancer.server.port=3000
         - traefik.http.services.wiki${1:+_$1}_app.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   wiki${1:+_$1}_db:
     image: postgres:15-alpine ## Versão do Postgres
 
@@ -31302,7 +31668,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##  
+## --------------------------- ORION --------------------------- ##
+  
 volumes:
   wiki${1:+_$1}_db:
     external: true
@@ -31481,7 +31848,8 @@ cat > azuracast${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   azuracast${1:+_$1}_web:
     image: ghcr.io/azuracast/azuracast:latest
 
@@ -31549,7 +31917,8 @@ services:
         - traefik.http.services.azuracast${1:+_$1}_web.loadbalancer.server.port=80
         - traefik.http.services.azuracast${1:+_$1}_web.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   azuracast${1:+_$1}_updater:
     image: ghcr.io/azuracast/updater:latest
 
@@ -31566,7 +31935,8 @@ services:
         constraints:
           - node.role == manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   azuracast${1:+_$1}_station_data:
     external: true
@@ -31826,7 +32196,8 @@ cat > shlink${1:+_$1}.yaml <<EOL
 version: "3.8"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   shlink${1:+_$1}_app:
     image: shlinkio/shlink-web-client:latest
 
@@ -31876,7 +32247,8 @@ services:
         - "traefik.http.routers.shlink${1:+_$1}_app.middlewares=authshlink${1:+_$1}_app"
         - "traefik.http.middlewares.authshlink${1:+_$1}_app.basicauth.users=$basicauth"
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   shlink${1:+_$1}_api:
     image: shlinkio/shlink:latest
 
@@ -31927,7 +32299,8 @@ services:
         - traefik.http.services.shlink${1:+_$1}_api.loadbalancer.server.port=8080
         - traefik.http.services.shlink${1:+_$1}_api.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   shlink${1:+_$1}_data:
     external: true
@@ -32134,7 +32507,8 @@ cat > rustdesk${1:+_$1}.yaml <<EOL
 version: "3.8"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   rustdesk${1:+_$1}_hbbs:
     image: rustdesk/rustdesk-server:latest
     command: hbbs
@@ -32173,7 +32547,8 @@ services:
         - traefik.http.services.rustdesk${1:+_$1}_hbbs.loadbalancer.server.port=21116
         - traefik.http.services.rustdesk${1:+_$1}_hbbs.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   rustdesk${1:+_$1}_hbbr:
     image: rustdesk/rustdesk-server:latest
     command: hbbr
@@ -32208,7 +32583,8 @@ services:
         - traefik.http.services.rustdesk${1:+_$1}_hbbr.loadbalancer.server.port=21117
         - traefik.http.services.rustdesk${1:+_$1}_hbbr.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   rustdesk${1:+_$1}_data:
     external: true
@@ -32492,7 +32868,8 @@ cat > hoppscotch${1:+_$1}.yaml <<EOL
 version: "3.8"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   hoppscotch${1:+_$1}_app:
     image: hoppscotch/hoppscotch-frontend:latest
 
@@ -32534,7 +32911,8 @@ services:
         - traefik.http.services.hoppscotch${1:+_$1}_app.loadbalancer.server.port=3000
         - traefik.http.services.hoppscotch${1:+_$1}_app.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   hoppscotch${1:+_$1}_admin:
     image: hoppscotch/hoppscotch-admin:latest
 
@@ -32576,7 +32954,8 @@ services:
         - traefik.http.services.hoppscotch${1:+_$1}_admin.loadbalancer.server.port=3100
         - traefik.http.services.hoppscotch${1:+_$1}_admin.loadbalancer.passHostHeader=true
         
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   hoppscotch${1:+_$1}_backend:
     image: hoppscotch/hoppscotch-backend:latest
 
@@ -32656,7 +33035,8 @@ services:
         - traefik.http.services.hoppscotch${1:+_$1}_backend.loadbalancer.server.port=3170
         - traefik.http.services.hoppscotch${1:+_$1}_backend.loadbalancer.passHostHeader=true
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   hoppscotch${1:+_$1}_migrate:
     image: hoppscotch/hoppscotch-backend:latest
     command: sh -c "sleep 30 && pnpx prisma migrate deploy"
@@ -32676,7 +33056,8 @@ services:
         constraints:
           - node.role == manager      
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 networks:
   $nome_rede_interna: ## Nome da rede interna
     external: true
@@ -32891,7 +33272,8 @@ cat > transcrevezap${1:+_$1}.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   transcrevezap${1:+_$1}:
     image: impacteai/transcrevezap:latest
     command: ./start.sh
@@ -32941,7 +33323,8 @@ services:
         - traefik.http.services.transcrevezap${1:+_$1}_manager.loadbalancer.server.port=8501
         - traefik.http.routers.transcrevezap${1:+_$1}_manager.service=transcrevezap${1:+_$1}_manager
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   redis_transcrevezap${1:+_$1}:
     image: redis:6
     command: [
@@ -32958,7 +33341,8 @@ services:
     networks:
       - $nome_rede_interna
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   redis_transcrevezap${1:+_$1}_data:
     external: true
@@ -33133,7 +33517,8 @@ cat > n8n${1:+_$1}_mcp.yaml <<EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   n8n${1:+_$1}_mcp:
     image: n8nio/n8n:latest ## Versão do N8N
     command: webhook
@@ -33143,6 +33528,7 @@ services:
 
     environment:
       ## 🗄️ Banco de Dados (PostgreSQL)
+      - N8N_FIX_MIGRATIONS=true 
       - DB_TYPE=postgresdb
       - DB_POSTGRESDB_DATABASE=n8n_queue${1:+_$1}
       - DB_POSTGRESDB_HOST=postgres
@@ -33229,7 +33615,8 @@ services:
         - traefik.http.services.n8n${1:+_$1}_mcp.loadbalancer.server.port=5678
         - traefik.http.services.n8n${1:+_$1}_mcp.loadbalancer.passHostHeader=1
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 networks:
   $nome_rede_interna: ## Nome da rede interna
     external: true
@@ -33289,10 +33676,230 @@ creditos_msg
 requisitar_outra_instalacao
 }
 
+##  ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗     ██╗   ██╗██╗
+## ██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗    ██║   ██║██║
+## ██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝    ██║   ██║██║
+## ██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗    ██║   ██║██║
+## ╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝    ╚██████╔╝██║
+##  ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝      ╚═════╝ ╚═╝
+
+ferramenta_openwebui() {
+
+## Verifica os recursos
+recursos 1 1 && continue || return
+
+## Limpa o terminal
+clear
+
+## Ativa a função dados para pegar os dados da vps
+dados
+
+## Mostra o nome da aplicação
+nome_openwebui
+
+## Mostra mensagem para preencher informações
+preencha_as_info
+
+## Inicia um Loop até os dados estarem certos
+while true; do
+
+    ##Pergunta o Dominio para a ferramenta
+    echo -e "\e[97mPasso$amarelo 1/1\e[0m"
+    echo -en "\e[33mDigite o dominio para o OpenWebUI (ex: openwebui.oriondesign.art.br): \e[0m" && read -r url_openwebui
+    echo ""
+    
+    ## Limpa o terminal
+    clear
+    
+    ## Mostra o nome da aplicação
+    nome_openwebui
+    
+    ## Mostra mensagem para verificar as informações
+    conferindo_as_info
+    
+    ##Informação do Dominio
+    echo -e "\e[33mDominio para o OpenWebUI:\e[97m $url_openwebui\e[0m"
+    echo ""
+    
+     ## Pergunta se as respostas estão corretas
+    read -p "As respostas estão corretas? (Y/N): " confirmacao
+    if [ "$confirmacao" = "Y" ] || [ "$confirmacao" = "y" ]; then
+
+        ## Digitou Y para confirmar que as informações estão corretas
+
+        ## Limpar o terminal
+        clear
+
+        ## Mostrar mensagem de Instalando
+        instalando_msg
+
+        ## Sai do Loop
+        break
+    else
+
+        ## Digitou N para dizer que as informações não estão corretas.
+
+        ## Limpar o terminal
+        clear
+
+        ## Mostra o nome da ferramenta
+        nome_openwebui
+
+        ## Mostra mensagem para preencher informações
+        preencha_as_info
+
+    ## Volta para o inicio do loop com as perguntas
+    fi
+done
+
+## Mensagem de Passo
+echo -e "\e[97m• INICIANDO A INSTALAÇÃO DO OPENWEBUI \e[33m[1/4]\e[0m"
+echo ""
+sleep 1
+
+telemetria OpenWebUI iniciado
+
+## NADA
+
+## Mensagem de Passo
+echo -e "\e[97m• INSTALANDO OPENWEBUI \e[33m[3/4]\e[0m"
+echo ""
+sleep 1
+
+WEBUI_SECRET_KEY=$(openssl rand -hex 16)
+
+## Criando a stack openwebui.yaml
+cat > openwebui${1:+_$1}.yaml <<EOL
+version: "3.7"
+services:
+
+## --------------------------- ORION --------------------------- ##
+
+  openwebui${1:+_$1}_app:
+    image: ghcr.io/open-webui/open-webui:main
+
+    volumes:
+      - openwebui${1:+_$1}_data:/app/backend/data
+
+    networks:
+      - $nome_rede_interna
+
+    #ports:
+    #  - 8085:8080
+
+    environment:
+
+      ## Base URL API
+      #- OLLAMA_BASE_URL=https://
+
+      ## Secret Key
+      - WEBUI_SECRET_KEY=$WEBUI_SECRET_KEY
+
+    deploy:
+      mode: replicated
+      replicas: 1
+      placement:
+        constraints:
+          - node.role == manager
+      labels:
+        - traefik.enable=true
+        - traefik.http.routers.openwebui${1:+_$1}_app.rule=Host(\`$url_openwebui\`)
+        - traefik.http.routers.openwebui${1:+_$1}_app.entrypoints=websecure
+        - traefik.http.routers.openwebui${1:+_$1}_app.priority=1
+        - traefik.http.routers.openwebui${1:+_$1}_app.tls.certresolver=letsencryptresolver
+        - traefik.http.routers.openwebui${1:+_$1}_app.service=openwebui${1:+_$1}_app
+        - traefik.http.services.openwebui${1:+_$1}_app.loadbalancer.server.port=8080
+        - traefik.http.services.openwebui${1:+_$1}_app.loadbalancer.passHostHeader=true
+
+## --------------------------- ORION --------------------------- ##
+
+volumes:
+  openwebui${1:+_$1}_data:
+    external: true
+    name: openwebui${1:+_$1}_data
+  
+networks:
+  $nome_rede_interna:
+    external: true
+    name: $nome_rede_interna
+EOL
+if [ $? -eq 0 ]; then
+    echo "1/10 - [ OK ] - Criando Stack"
+else
+    echo "1/10 - [ OFF ] - Criando Stack"
+    echo "Não foi possivel criar a stack do openwebui"
+fi
+STACK_NAME="openwebui${1:+_$1}"
+stack_editavel # > /dev/null 2>&1
+#docker stack deploy --prune --resolve-image always -c openwebui.yaml openwebui > /dev/null 2>&1
+#if [ $? -eq 0 ]; then
+#    echo "2/2 - [ OK ] - Deploy Stack"
+#else
+#    echo "2/2 - [ OFF ] - Deploy Stack"
+#    echo "Não foi possivel Subir a stack do openwebui"
+#fi
+
+## Mensagem de Passo
+echo -e "\e[97m• VERIFICANDO SERVIÇO \e[33m[4/4]\e[0m"
+echo ""
+sleep 1
+
+## Baixando imagens:
+pull ghcr.io/open-webui/open-webui:main
+
+## Usa o serviço wait_nocodb para verificar se o serviço esta online
+wait_stack openwebui${1:+_$1}_openwebui${1:+_$1}_app
+
+telemetria OpenWebUI finalizado
+
+cd dados_vps
+
+cat > dados_openwebui${1:+_$1} <<EOL
+[ OPENWEBUI ]
+
+Dominio do Open WebUI: https://$url_openwebui
+
+Usuario: Precisa de criar ao fazer o primeiro login
+
+Senha: Precisa de criar ao fazer o primeiro login
+
+EOL
+
+cd
+cd
+
+## Espera 30 segundos
+wait_30_sec
+
+## Mensagem de finalizado
+instalado_msg
+
+## Mensagem de Guarde os Dados
+guarde_os_dados_msg
+
+## Dados da Aplicação:
+echo -e "\e[32m[ OPENWEBUI ]\e[0m"
+echo ""
+
+echo -e "\e[33mOpen OpenWebUI:\e[97m https://$url_openwebui\e[0m"
+echo ""
+
+echo -e "\e[33mUsuario:\e[97m Precisa de criar ao fazer o primeiro login\e[0m"
+echo ""
+
+echo -e "\e[33mSenha:\e[97m Precisa de criar ao fazer o primeiro login\e[0m"
+
+## Creditos do instalador
+creditos_msg
+
+## Pergunta se deseja instalar outra aplicação
+requisitar_outra_instalacao
+}
+
 ## Ignore esta parte, só para facilitar minha identificação com esta parte "XXOOXX"
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Comandos extras
@@ -33786,7 +34393,8 @@ cat > traefik.yaml << EOL
 version: "3.7"
 services:
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
   traefik:
     image: traefik:v3.4.0
     command:
@@ -33839,7 +34447,8 @@ services:
         - "traefik.http.routers.http-catchall.middlewares=redirect-https@docker"
         - "traefik.http.routers.http-catchall.priority=1"
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   vol_shared:
     external: true
@@ -33965,7 +34574,8 @@ basicauth=$(htpasswd -nbB "$traefik_user" "$traefik_pass" | sed 's/\$/\$\$/g')
 cat > traefik.yaml << EOL
 version: "3.7"
 services:
-  ## --------------------------- HOSTFY --------------------------- ##
+  ## --------------------------- ORION --------------------------- ##
+
   traefik:
     image: traefik:v3.4.0
     command:
@@ -34029,7 +34639,8 @@ services:
         - "traefik.http.routers.traefik.middlewares=authtraefik"
         - "traefik.http.middlewares.authtraefik.basicauth.users=$basicauth"
 
-## --------------------------- HOSTFY --------------------------- ##
+## --------------------------- ORION --------------------------- ##
+
 volumes:
   vol_shared:
     external: true
@@ -34387,7 +34998,7 @@ minio.bucket.delete() {
 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 ## Iniciando instalador
@@ -34419,6 +35030,9 @@ while true; do
             ;;
 
         1|01|portainer|traefik|PORTAINER|TRAEFIK)
+            verificar_stack "traefik" && continue || echo ""
+            verificar_stack "portainer" && continue || echo ""
+
             ferramenta_traefik_e_portainer
             ;;
 
@@ -35705,7 +36319,7 @@ while true; do
 
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
         postgres)
@@ -35797,7 +36411,7 @@ while true; do
             
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
         
         evolution.v1)
@@ -35908,6 +36522,28 @@ while true; do
 
             fi   
             ;;
+          
+          openwebui)
+
+            verificar_stack "openwebui${opcao2:+_$opcao2}" && continue || echo ""
+
+            if verificar_docker_e_portainer_traefik; then
+
+                ## INICIO TOKEN
+
+                STACK_NAME="openwebui${opcao2:+_$opcao2}"
+
+                if grep -q "Token: .\+" /root/dados_vps/dados_portainer; then
+                    ferramenta_openwebui "$opcao2"
+                else
+                    APP_ORION="openwebui${opcao2:+_$opcao2}"
+                    ferramenta_openwebui "$opcao2"
+                fi
+
+                ## FIM TOKEN
+
+            fi   
+            ;;
         
         chatwoot.mega)
 
@@ -35944,7 +36580,7 @@ while true; do
             ;;
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
         ## Reiniciar portainer
@@ -36037,7 +36673,7 @@ while true; do
             ;;
 
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
-##                                         HOSTFY                                              ##
+##                                         ORION DESIGN                                        ##
 ## // ## // ## // ## // ## // ## // ## // ## //## // ## // ## // ## // ## // ## // ## // ## // ##
 
 
