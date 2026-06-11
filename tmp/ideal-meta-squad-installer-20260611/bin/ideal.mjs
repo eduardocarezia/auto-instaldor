@@ -3,10 +3,12 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import process from "node:process";
+import { spawn } from "node:child_process";
 
 const INSTALL_COMMANDS = ["init", "instalar"];
 const METHOD_COMMANDS = ["idealizar", "desenhar", "executar", "aprimorar", "lancar"];
 const MAINTENANCE_COMMANDS = ["diagnosticar", "ferramentas", "caminhos", "versao"];
+const AUTH_COMMANDS = ["entrar", "login", "sair", "logout", "auth"];
 const COMMANDS = ["init", ...METHOD_COMMANDS];
 const MARKER_START = "<!-- ideal-ai-first:start -->";
 const MARKER_END = "<!-- ideal-ai-first:end -->";
@@ -20,7 +22,13 @@ if (command === "--help" || command === "help" || command === "ajuda") {
   process.exit(0);
 }
 
+if (AUTH_COMMANDS.includes(command)) {
+  await handleAuthCommand(command, options);
+  process.exit(0);
+}
+
 if (INSTALL_COMMANDS.includes(command)) {
+  await ensureAuthenticatedForInstall(options);
   install(options);
   process.exit(0);
 }
@@ -51,6 +59,7 @@ function normalizeCommand(value) {
     versao: "versao",
     version: "versao",
     doctor: "diagnosticar",
+    autenticar: "entrar",
   };
 
   return aliases[normalized] || normalized;
@@ -63,6 +72,8 @@ function parseOptions(argv) {
     force: argv.includes("--force"),
     scope: "project",
     targets: ["codex", "claude", "cursor"],
+    authUrl: process.env.IDEAL_AUTH_URL || "",
+    productSlug: "",
   };
 
   const targetArg = argv.find((arg) => arg.startsWith("--targets="));
@@ -103,6 +114,29 @@ function parseOptions(argv) {
 
   result.scope = normalizeScope(result.scope);
 
+  const authUrlArg = argv.find((arg) => arg.startsWith("--auth-url="));
+  if (authUrlArg) result.authUrl = authUrlArg.replace("--auth-url=", "");
+
+  const authUrlIndex = argv.indexOf("--auth-url");
+  if (authUrlIndex >= 0 && argv[authUrlIndex + 1]) {
+    result.authUrl = argv[authUrlIndex + 1];
+  }
+
+  const productArg = argv.find((arg) => arg.startsWith("--produto=") || arg.startsWith("--product="));
+  if (productArg) {
+    result.productSlug = productArg.replace("--produto=", "").replace("--product=", "");
+  }
+
+  const productIndex = argv.indexOf("--produto");
+  if (productIndex >= 0 && argv[productIndex + 1]) {
+    result.productSlug = argv[productIndex + 1];
+  }
+
+  const productEnIndex = argv.indexOf("--product");
+  if (productEnIndex >= 0 && argv[productEnIndex + 1]) {
+    result.productSlug = argv[productEnIndex + 1];
+  }
+
   return result;
 }
 
@@ -111,6 +145,7 @@ function printHelp() {
 
 Uso:
   npx ideal-ai-first@latest ideal:instalar [--escopo projeto|global|ambos] [--targets codex,claude,cursor] [--dry-run] [--force]
+  npx ideal-ai-first@latest ideal:entrar --auth-url https://sua-area-de-membros.com
   npx ideal-ai-first@latest ideal:diagnosticar
   npx ideal-ai-first@latest ideal:idealizar "o que voce quer criar"
   npx ideal-ai-first@latest ideal:desenhar "processo, agente ou projeto"
@@ -127,6 +162,11 @@ Escopos:
   projeto instala no projeto atual
   global  instala em ~/.codex, ~/.claude e gera pacote Cursor em ~/.cursor/ideal
   ambos   instala nos dois
+
+Autenticacao:
+  ideal:entrar autentica na area de membros via fluxo OAuth-like por codigo
+  ideal:sair remove o token local
+  --auth-url tambem pode ser definido por IDEAL_AUTH_URL
 `);
 }
 
@@ -274,6 +314,155 @@ function printMaintenance(command, options) {
   Escopo padrao: ${options.scope}
   Targets: ${options.targets.join(", ")}
   Status: prototipo pronto para dry-run e instalacao local`);
+}
+
+async function handleAuthCommand(command, options) {
+  if (command === "sair" || command === "logout") {
+    const authPath = getAuthPath();
+    if (fs.existsSync(authPath)) fs.rmSync(authPath);
+    console.log("Token IDEAL removido deste computador.");
+    return;
+  }
+
+  if (command === "auth") {
+    const auth = readAuth();
+    if (!auth) {
+      console.log("Nao autenticado. Rode ideal:entrar --auth-url <url-da-area-de-membros>.");
+      return;
+    }
+    console.log(`Autenticado em ${auth.authUrl}`);
+    console.log(`Token expira em ${new Date(auth.expiresAt).toLocaleString("pt-BR")}`);
+    return;
+  }
+
+  await login(options);
+}
+
+async function login(options) {
+  const authUrl = normalizeAuthUrl(options.authUrl);
+  if (!authUrl) {
+    fail("Informe --auth-url ou defina IDEAL_AUTH_URL apontando para sua area de membros.");
+  }
+
+  const response = await fetch(`${authUrl}/api/ideal/device`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      label: `IDEAL CLI em ${os.hostname()}`,
+      productSlug: options.productSlug || undefined,
+      scopes: ["ideal:download"],
+    }),
+  });
+
+  if (!response.ok) {
+    fail(`Nao foi possivel iniciar login IDEAL (${response.status}).`);
+  }
+
+  const device = await response.json();
+  console.log("Login IDEAL Meta-Squad");
+  console.log(`Codigo: ${device.user_code}`);
+  console.log(`Abra: ${device.verification_uri_complete}`);
+  console.log("");
+  openUrl(device.verification_uri_complete);
+  console.log("Aguardando autorizacao na area de membros...");
+
+  const expiresAt = Date.now() + device.expires_in * 1000;
+  const intervalMs = Math.max(2, device.interval || 5) * 1000;
+
+  while (Date.now() < expiresAt) {
+    await sleep(intervalMs);
+    const tokenResponse = await fetch(`${authUrl}/api/ideal/token`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ device_code: device.device_code }),
+    });
+
+    if (tokenResponse.status === 428) continue;
+
+    const tokenBody = await tokenResponse.json().catch(() => ({}));
+    if (!tokenResponse.ok) {
+      fail(`Login IDEAL falhou: ${tokenBody.error || tokenResponse.status}`);
+    }
+
+    const auth = {
+      authUrl,
+      accessToken: tokenBody.access_token,
+      tokenType: tokenBody.token_type || "Bearer",
+      scope: tokenBody.scope || "ideal:download",
+      expiresAt: Date.now() + tokenBody.expires_in * 1000,
+      createdAt: Date.now(),
+    };
+    writeAuth(auth);
+    console.log("Autenticado com sucesso. Downloads IDEAL liberados para este computador.");
+    return;
+  }
+
+  fail("Tempo de login expirado. Rode ideal:entrar novamente.");
+}
+
+async function ensureAuthenticatedForInstall(options) {
+  if (options.dryRun) return;
+
+  const auth = readAuth();
+  if (!auth) {
+    fail("Instalacao protegida. Rode ideal:entrar --auth-url <url-da-area-de-membros> antes de instalar.");
+  }
+
+  if (auth.expiresAt <= Date.now()) {
+    fail("Token IDEAL expirado. Rode ideal:entrar novamente.");
+  }
+
+  const manifestResponse = await fetch(`${auth.authUrl}/api/ideal/manifest`, {
+    headers: { Authorization: `${auth.tokenType} ${auth.accessToken}` },
+  });
+
+  if (!manifestResponse.ok) {
+    fail(`Token IDEAL invalido ou sem acesso pago (${manifestResponse.status}). Rode ideal:entrar novamente.`);
+  }
+
+  const manifest = await manifestResponse.json();
+  log(options, "auth", `acesso liberado para ${manifest.member?.email || "membro pago"}`);
+}
+
+function normalizeAuthUrl(authUrl) {
+  return (authUrl || "").trim().replace(/\/$/, "");
+}
+
+function getAuthPath() {
+  return path.join(os.homedir(), ".ideal", "auth.json");
+}
+
+function readAuth() {
+  const authPath = getAuthPath();
+  if (!fs.existsSync(authPath)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(authPath, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+function writeAuth(auth) {
+  const authPath = getAuthPath();
+  fs.mkdirSync(path.dirname(authPath), { recursive: true });
+  fs.writeFileSync(authPath, `${JSON.stringify(auth, null, 2)}\n`, { mode: 0o600 });
+}
+
+function openUrl(url) {
+  const command =
+    process.platform === "darwin"
+      ? "open"
+      : process.platform === "win32"
+        ? "cmd"
+        : "xdg-open";
+  const args = process.platform === "win32" ? ["/c", "start", "", url] : [url];
+  const child = spawn(command, args, { detached: true, stdio: "ignore" });
+  child.on("error", () => {});
+  child.unref();
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 function writeFile(options, relativePath, content) {
