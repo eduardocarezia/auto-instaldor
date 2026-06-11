@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-RAW_BASE="${IDEAL_RAW_BASE:-https://raw.githubusercontent.com/eduardocarezia/auto-instaldor/main/tmp/ideal-meta-squad-installer-20260611}"
+RAW_BASE="${IDEAL_RAW_BASE:-https://raw.githubusercontent.com/eduardocarezia/auto-instaldor/ideal-meta-squad-installer-20260611/tmp/ideal-meta-squad-installer-20260611}"
 TMP_DIR="$(mktemp -d "${TMPDIR:-/tmp}/ideal-installer.XXXXXX")"
 
 cleanup() {

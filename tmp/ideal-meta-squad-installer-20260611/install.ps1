@@ -2,7 +2,7 @@ $ErrorActionPreference = "Stop"
 
 $RawBase = $env:IDEAL_RAW_BASE
 if ([string]::IsNullOrWhiteSpace($RawBase)) {
-  $RawBase = "https://raw.githubusercontent.com/eduardocarezia/auto-instaldor/main/tmp/ideal-meta-squad-installer-20260611"
+  $RawBase = "https://raw.githubusercontent.com/eduardocarezia/auto-instaldor/ideal-meta-squad-installer-20260611/tmp/ideal-meta-squad-installer-20260611"
 }
 
 if (-not (Get-Command node -ErrorAction SilentlyContinue)) {
