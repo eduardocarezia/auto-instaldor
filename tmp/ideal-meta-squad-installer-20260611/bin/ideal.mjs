@@ -403,13 +403,29 @@ async function login(options) {
 async function ensureAuthenticatedForInstall(options) {
   if (options.dryRun) return;
 
-  const auth = readAuth();
+  let auth = readAuth();
   if (!auth) {
-    fail("Instalacao protegida. Rode ideal:entrar --auth-url <url-da-area-de-membros> antes de instalar.");
+    if (!options.authUrl) {
+      fail("Instalacao protegida. Rode com --auth-url <url-da-area-de-membros> ou autentique antes com ideal:entrar.");
+    }
+    await login(options);
+    auth = readAuth();
+  }
+
+  if (!auth) {
+    fail("Nao foi possivel salvar a autenticacao IDEAL neste computador.");
   }
 
   if (auth.expiresAt <= Date.now()) {
-    fail("Token IDEAL expirado. Rode ideal:entrar novamente.");
+    if (!options.authUrl) {
+      fail("Token IDEAL expirado. Rode ideal:entrar novamente.");
+    }
+    await login(options);
+    auth = readAuth();
+  }
+
+  if (!auth) {
+    fail("Nao foi possivel renovar a autenticacao IDEAL neste computador.");
   }
 
   const manifestResponse = await fetch(`${auth.authUrl}/api/ideal/manifest`, {
