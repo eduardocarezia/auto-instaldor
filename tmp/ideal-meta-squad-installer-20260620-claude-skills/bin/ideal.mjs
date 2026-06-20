@@ -181,7 +181,7 @@ function printHelp() {
 Uso:
   npx ideal-ai-first@latest
   npx ideal-ai-first@latest ideal:instalar [--escopo projeto|global|ambos] [--targets codex,claude,claude-desktop,cursor]
-  npx ideal-ai-first@latest ideal:entrar --auth-url https://sua-area-de-membros.com
+  npx ideal-ai-first@latest ideal:entrar
   npx ideal-ai-first@latest ideal:diagnosticar
   npx ideal-ai-first@latest ideal:idealizar "o que voce quer criar"
   npx ideal-ai-first@latest ideal:desenhar "processo, agente ou projeto"
@@ -192,7 +192,7 @@ Uso:
   npx ideal-ai-first@latest metasquad:diagnosticar "rotina atual"
 
 Targets:
-  codex   AGENTS.md, .codex/prompts e hooks
+  codex           AGENTS.md, .codex/prompts e hooks
   claude          Claude Code: CLAUDE.md, .claude/commands/ideal e .claude/skills
   claude-desktop  Claude Desktop/Web: pacotes ZIP importaveis pela interface
   cursor          .cursor/rules e .cursor/commands/ideal
@@ -673,7 +673,7 @@ async function handleAuthCommand(command, options) {
   if (command === "auth") {
     const auth = readAuth();
     if (!auth) {
-      console.log("Nao autenticado. Rode ideal:entrar --auth-url <url-da-area-de-membros>.");
+      console.log("Nao autenticado. Rode ideal:entrar.");
       return;
     }
     console.log(`Autenticado em ${auth.authUrl}`);
