@@ -555,7 +555,10 @@ function writeClaudeDesktopPackages(options, root, packageOptions = {}) {
 
 function removeLegacyClaudeDesktopSkillFile(options, relativePath) {
   const fullPath = path.join(options.cwd, relativePath);
-  if (options.dryRun || !fs.existsSync(fullPath)) return;
+  const directory = path.dirname(fullPath);
+  const fileName = path.basename(fullPath);
+  if (options.dryRun || !fs.existsSync(directory)) return;
+  if (!fs.readdirSync(directory).includes(fileName)) return;
   fs.rmSync(fullPath, { force: true });
   log(options, "remove", relativePath);
 }
