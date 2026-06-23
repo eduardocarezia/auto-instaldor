@@ -196,7 +196,7 @@ Uso:
 Targets:
   codex           AGENTS.md, .codex/prompts e hooks
   claude          Claude Code: CLAUDE.md, .claude/commands/ideal e .claude/skills
-  claude-desktop  Claude Desktop/Web: pacotes ZIP importaveis pela interface
+  claude-desktop  Claude Desktop/Web: skills locais e pacotes ZIP importaveis pela interface
   cursor          .cursor/rules e .cursor/commands/ideal
 
 Escopos:
@@ -205,7 +205,7 @@ Escopos:
   ambos   instala nos dois
 
 Flags uteis:
-  --no-claude-desktop-sync  gera ZIPs, mas nao altera o cache local do Claude Desktop
+  --no-claude-desktop-sync  gera ZIPs, mas nao altera o armazenamento local do Claude Desktop
   IDEAL_CLAUDE_DESKTOP_SKILLS_DIR  aponta manualmente para a pasta skills ou plugin root do Claude Desktop
 
 Autenticacao:
@@ -546,10 +546,18 @@ function writeClaudeDesktopPackages(options, root, packageOptions = {}) {
   writeFile(options, `${root}/README.md`, claudeDesktopReadme(root));
 
   for (const artifact of claudeDesktopSkillArtifacts()) {
-    writeFile(options, `${root}/${artifact.name}/skill.md`, artifact.content);
+    removeLegacyClaudeDesktopSkillFile(options, `${root}/${artifact.name}/skill.md`);
+    writeFile(options, `${root}/${artifact.name}/SKILL.md`, artifact.content);
   }
 
   zipClaudeDesktopSkills(options, root, packageOptions);
+}
+
+function removeLegacyClaudeDesktopSkillFile(options, relativePath) {
+  const fullPath = path.join(options.cwd, relativePath);
+  if (options.dryRun || !fs.existsSync(fullPath)) return;
+  fs.rmSync(fullPath, { force: true });
+  log(options, "remove", relativePath);
 }
 
 function installCursor(options) {
@@ -928,6 +936,18 @@ function updateClaudeDesktopManifest(options, pluginRoot, artifacts) {
   for (const artifact of artifacts) {
     const existing = byName.get(artifact.name);
     if (existing) {
+      if (existing.skillId !== artifact.name) {
+        existing.skillId = artifact.name;
+        changed = true;
+      }
+      if (existing.creatorType !== "user") {
+        existing.creatorType = "user";
+        changed = true;
+      }
+      if (existing.syncManaged !== false) {
+        existing.syncManaged = false;
+        changed = true;
+      }
       if (existing.enabled !== true) {
         existing.enabled = true;
         changed = true;
@@ -941,10 +961,11 @@ function updateClaudeDesktopManifest(options, pluginRoot, artifacts) {
     }
 
     additions.push({
-      skillId: `ideal-ai-first-${artifact.name}`,
+      skillId: artifact.name,
       name: artifact.name,
       description: artifact.description,
       creatorType: "user",
+      syncManaged: false,
       updatedAt: new Date().toISOString(),
       enabled: true,
     });
